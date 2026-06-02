@@ -7,8 +7,10 @@ Run: uvicorn main:app --port 8000 --reload
 """
 
 import uvicorn
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from routers import sap_pdf, maintenance, financial_ppt, word_ppt
 
@@ -40,6 +42,12 @@ app.include_router(word_ppt.router,      prefix="/api/word-ppt",      tags=["Wor
 @app.get("/api/health")
 def health():
     return {"status": "ok", "initiatives": 4}
+
+
+# Serve built frontend — must be mounted LAST so API routes take priority
+_dist = Path(__file__).parent.parent / "frontend" / "dist"
+if _dist.exists():
+    app.mount("/", StaticFiles(directory=str(_dist), html=True), name="frontend")
 
 
 if __name__ == "__main__":
