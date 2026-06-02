@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+backend/output/
+dist/
+.vercel/
+*.pptx
+*.pdf
