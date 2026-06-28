@@ -1,0 +1,838 @@
+Call No,Date,Time,Equipment,Problem Description,Attended By,Time to Resolve (hrs),Status,Remarks,shift,sheet_name,machine
+D01-001,2025-05-11,07:00,Cylinder-Main,Strip break at forming section,A. Patel,1.5,Closed,Spare part ordered — pending,Day,Line-1,Line-1
+D01-002,2025-05-13,12:00,Motor-A,Conveyor belt slip / misalignment,A. Patel,2.2,Closed,Root cause: wear and tear,Day,Line-1,Line-1
+D01-003,2025-05-09,14:45,Pump-2,Hydraulic valve stuck open,N. Das,2.6,Open,Temporary fix applied,Day,Line-1,Line-1
+D01-004,2025-05-09,12:30,Cylinder-Main,Pneumatic pressure drop in actuator,A. Patel,7.7,Closed,Spare part ordered — pending,Day,Line-1,Line-1
+D01-005,2025-05-19,07:30,Conveyor-Drive,Lubrication system fault — low level,K. Yadav,6.6,Closed,Spare part ordered — pending,Day,Line-1,Line-1
+D01-006,2025-05-02,12:00,Cylinder-Main,Chain elongation on drive chain,N. Das,7.1,Closed,Root cause: wear and tear,Day,Line-1,Line-1
+D01-007,2025-05-09,07:00,Pump-2,Coating thickness alarm,K. Yadav,7.9,Open,Spare part ordered — pending,Day,Line-1,Line-1
+D01-008,2025-05-19,10:45,Conveyor-Drive,Coolant pump not starting,S. Kumar,3.2,Closed,Spare part ordered — pending,Day,Line-1,Line-1
+D01-009,2025-05-12,08:15,Pump-1,Hydraulic valve stuck open,D. Mehta,2.5,Open,Root cause: wear and tear,Day,Line-1,Line-1
+D01-010,2025-05-10,11:00,Pump-2,Motor overheating — bearing failure,S. Kumar,3.5,Closed,Escalated to OEM,Day,Line-1,Line-1
+D01-011,2025-05-25,13:45,PLC-Panel,Pneumatic pressure drop in actuator,K. Yadav,1.5,Closed,Preventive maintenance scheduled,Day,Line-1,Line-1
+D01-012,2025-05-08,12:45,Conveyor-Drive,Strip break at forming section,M. Singh,4.3,Closed,Repaired and tested OK,Day,Line-1,Line-1
+D01-013,2025-05-04,07:15,Pump-1,Gear coupling worn — noise detected,D. Mehta,5.0,Closed,,Day,Line-1,Line-1
+D01-014,2025-05-15,10:00,Motor-B,Gear coupling worn — noise detected,B. Reddy,6.1,Open,Escalated to OEM,Day,Line-1,Line-1
+D01-015,2025-05-28,10:45,Pump-1,Hydraulic valve stuck open,R. Sharma,7.7,Open,Preventive maintenance scheduled,Day,Line-1,Line-1
+N01-001,2025-05-15,19:00,Cylinder-Main,Chain elongation on drive chain,B. Reddy,5.1,Closed,Temporary fix applied,Night,Line-1,Line-1
+N01-002,2025-05-14,22:00,Conveyor-Drive,Drive belt worn — replacement needed,R. Sharma,1.3,Closed,Preventive maintenance scheduled,Night,Line-1,Line-1
+N01-003,2025-05-24,18:15,Motor-B,Conveyor belt slip / misalignment,V. Joshi,6.6,Open,Temporary fix applied,Night,Line-1,Line-1
+N01-004,2025-05-27,23:45,Pump-1,Vibration high on spindle motor,B. Reddy,7.0,Closed,Root cause: wear and tear,Night,Line-1,Line-1
+N01-005,2025-05-02,22:15,Cylinder-Main,Emergency stop triggered — unknown cause,S. Kumar,3.8,Closed,Spare part ordered — pending,Night,Line-1,Line-1
+N01-006,2025-05-24,19:00,Conveyor-Drive,Hydraulic leak in main cylinder,N. Das,4.7,Closed,Repaired and tested OK,Night,Line-1,Line-1
+N01-007,2025-05-29,23:00,Pump-2,Conveyor belt slip / misalignment,R. Sharma,6.9,Closed,Root cause: wear and tear,Night,Line-1,Line-1
+N01-008,2025-05-23,23:45,Pump-2,Air compressor pressure low,M. Singh,5.9,Open,,Night,Line-1,Line-1
+N01-009,2025-05-24,21:45,Pump-2,PLC fault code F-204 — sensor error,P. Gupta,5.4,Closed,Resolved by operator adjustment,Night,Line-1,Line-1
+N01-010,2025-05-17,23:00,Motor-B,Motor overheating — bearing failure,D. Mehta,6.0,Open,Spare part ordered — pending,Night,Line-1,Line-1
+N01-011,2025-05-24,19:15,PLC-Panel,Pneumatic pressure drop in actuator,D. Mehta,1.9,Closed,Spare part ordered — pending,Night,Line-1,Line-1
+N01-012,2025-05-17,22:00,Motor-A,Chain elongation on drive chain,B. Reddy,6.8,Open,Root cause: wear and tear,Night,Line-1,Line-1
+D02-001,2025-05-26,12:45,PLC-Panel,Weld seam out of tolerance,D. Mehta,7.3,Closed,Repaired and tested OK,Day,Line-2,Line-2
+D02-002,2025-05-19,10:45,Cylinder-Main,Pipe OD out of spec — forming issue,B. Reddy,5.5,Closed,Root cause: wear and tear,Day,Line-2,Line-2
+D02-003,2025-05-22,09:00,Motor-A,Torch height error — cutting machine,S. Kumar,0.9,Closed,Temporary fix applied,Day,Line-2,Line-2
+D02-004,2025-05-30,14:00,Pump-1,Conveyor belt slip / misalignment,N. Das,1.0,Open,Resolved by operator adjustment,Day,Line-2,Line-2
+D02-005,2025-05-28,09:00,Motor-B,Pipe OD out of spec — forming issue,N. Das,4.7,Closed,Preventive maintenance scheduled,Day,Line-2,Line-2
+D02-006,2025-05-25,11:15,Cylinder-Main,Emergency stop triggered — unknown cause,M. Singh,5.5,Closed,Escalated to OEM,Day,Line-2,Line-2
+D02-007,2025-05-02,07:00,PLC-Panel,Lubrication system fault — low level,N. Das,8.0,Closed,Root cause: wear and tear,Day,Line-2,Line-2
+D02-008,2025-05-15,10:15,Conveyor-Drive,Conveyor belt slip / misalignment,A. Patel,3.3,Closed,Preventive maintenance scheduled,Day,Line-2,Line-2
+D02-009,2025-05-12,14:00,Cylinder-Main,Gear coupling worn — noise detected,P. Gupta,7.5,Closed,Spare part ordered — pending,Day,Line-2,Line-2
+D02-010,2025-05-03,07:15,Cylinder-Main,Oil contamination in gearbox,N. Das,2.1,Closed,Preventive maintenance scheduled,Day,Line-2,Line-2
+D02-011,2025-05-15,13:30,Motor-A,Conveyor belt slip / misalignment,D. Mehta,6.7,Closed,Escalated to OEM,Day,Line-2,Line-2
+D02-012,2025-05-07,08:30,Pump-1,Torch height error — cutting machine,V. Joshi,4.6,Closed,Repaired and tested OK,Day,Line-2,Line-2
+D02-013,2025-05-28,07:15,Motor-A,Control panel display blank,N. Das,4.6,Closed,Repaired and tested OK,Day,Line-2,Line-2
+D02-014,2025-05-22,11:00,Conveyor-Drive,Weld seam out of tolerance,A. Patel,5.5,Closed,Resolved by operator adjustment,Day,Line-2,Line-2
+D02-015,2025-05-12,08:15,Pump-1,Coolant pump not starting,D. Mehta,0.7,Closed,Escalated to OEM,Day,Line-2,Line-2
+N02-001,2025-05-06,21:15,Cylinder-Main,Coolant pump not starting,P. Gupta,3.4,Closed,,Night,Line-2,Line-2
+N02-002,2025-05-24,19:45,Conveyor-Drive,Oil contamination in gearbox,A. Patel,2.2,Closed,Resolved by operator adjustment,Night,Line-2,Line-2
+N02-003,2025-05-21,20:00,Cylinder-Main,Control panel display blank,B. Reddy,3.5,Open,Escalated to OEM,Night,Line-2,Line-2
+N02-004,2025-05-31,18:30,Pump-1,Water leakage in cooling system,K. Yadav,0.8,Closed,Escalated to OEM,Night,Line-2,Line-2
+N02-005,2025-05-08,20:45,Motor-B,Emergency stop triggered — unknown cause,N. Das,1.9,Closed,Resolved by operator adjustment,Night,Line-2,Line-2
+N02-006,2025-05-31,22:15,Conveyor-Drive,Pipe OD out of spec — forming issue,P. Gupta,7.6,Open,Escalated to OEM,Night,Line-2,Line-2
+N02-007,2025-05-10,18:30,Cylinder-Main,Gear coupling worn — noise detected,D. Mehta,2.9,Closed,Temporary fix applied,Night,Line-2,Line-2
+N02-008,2025-05-25,21:45,Pump-1,Lubrication system fault — low level,N. Das,2.8,Closed,Repaired and tested OK,Night,Line-2,Line-2
+N02-009,2025-05-22,20:15,Gearbox,Water leakage in cooling system,N. Das,5.4,Closed,,Night,Line-2,Line-2
+N02-010,2025-05-10,19:45,Pump-1,Gear coupling worn — noise detected,P. Gupta,2.6,Closed,Escalated to OEM,Night,Line-2,Line-2
+N02-011,2025-05-29,19:30,Pump-2,Weld seam out of tolerance,M. Singh,0.7,Closed,,Night,Line-2,Line-2
+N02-012,2025-05-12,18:45,Gearbox,Chain elongation on drive chain,N. Das,2.0,Closed,,Night,Line-2,Line-2
+D03-001,2025-05-19,09:15,Motor-A,Coating thickness alarm,P. Gupta,6.3,Closed,,Day,Line-3,Line-3
+D03-002,2025-05-30,14:15,Motor-B,Hydraulic valve stuck open,M. Singh,6.5,Closed,Escalated to OEM,Day,Line-3,Line-3
+D03-003,2025-05-07,13:45,PLC-Panel,Coolant pump not starting,V. Joshi,3.9,Open,Preventive maintenance scheduled,Day,Line-3,Line-3
+D03-004,2025-05-07,14:45,Pump-2,Vibration high on spindle motor,V. Joshi,1.1,Closed,Preventive maintenance scheduled,Day,Line-3,Line-3
+D03-005,2025-05-21,11:00,Pump-1,Pneumatic pressure drop in actuator,A. Patel,3.4,Closed,Root cause: wear and tear,Day,Line-3,Line-3
+D03-006,2025-05-29,12:45,Conveyor-Drive,Air compressor pressure low,V. Joshi,3.6,Closed,Resolved by operator adjustment,Day,Line-3,Line-3
+D03-007,2025-05-19,06:45,PLC-Panel,Hydraulic leak in main cylinder,S. Kumar,2.7,Closed,Resolved by operator adjustment,Day,Line-3,Line-3
+D03-008,2025-05-14,14:15,PLC-Panel,Strip break at forming section,K. Yadav,3.8,Closed,Escalated to OEM,Day,Line-3,Line-3
+D03-009,2025-05-10,12:15,PLC-Panel,Pneumatic pressure drop in actuator,N. Das,4.5,Open,Repaired and tested OK,Day,Line-3,Line-3
+D03-010,2025-05-29,12:15,PLC-Panel,Coolant pump not starting,R. Sharma,2.5,Closed,,Day,Line-3,Line-3
+D03-011,2025-05-21,11:45,Cylinder-Main,Coating thickness alarm,D. Mehta,2.4,Closed,Repaired and tested OK,Day,Line-3,Line-3
+D03-012,2025-05-08,14:00,Conveyor-Drive,Strip break at forming section,P. Gupta,6.4,Closed,Repaired and tested OK,Day,Line-3,Line-3
+D03-013,2025-05-24,09:00,Pump-1,Strip break at forming section,M. Singh,4.1,Closed,Root cause: wear and tear,Day,Line-3,Line-3
+D03-014,2025-05-17,10:30,Pump-1,Lubrication system fault — low level,N. Das,7.7,Closed,Temporary fix applied,Day,Line-3,Line-3
+D03-015,2025-05-22,07:00,Cylinder-Main,Water leakage in cooling system,D. Mehta,3.5,Closed,Spare part ordered — pending,Day,Line-3,Line-3
+N03-001,2025-05-13,23:15,Motor-B,Electrical trip — overload relay,K. Yadav,6.9,Closed,Spare part ordered — pending,Night,Line-3,Line-3
+N03-002,2025-05-06,22:00,Conveyor-Drive,Air compressor pressure low,D. Mehta,5.5,Closed,Escalated to OEM,Night,Line-3,Line-3
+N03-003,2025-05-31,21:45,Motor-B,Pipe OD out of spec — forming issue,S. Kumar,5.3,Open,Temporary fix applied,Night,Line-3,Line-3
+N03-004,2025-05-18,19:30,PLC-Panel,Hydraulic valve stuck open,D. Mehta,6.7,Closed,Escalated to OEM,Night,Line-3,Line-3
+N03-005,2025-05-04,19:00,Cylinder-Main,Hydraulic valve stuck open,A. Patel,6.1,Closed,Resolved by operator adjustment,Night,Line-3,Line-3
+N03-006,2025-05-21,18:45,Conveyor-Drive,Coolant pump not starting,V. Joshi,2.1,Open,Escalated to OEM,Night,Line-3,Line-3
+N03-007,2025-05-23,22:30,Motor-A,Encoder signal lost on servo axis,A. Patel,1.1,Closed,,Night,Line-3,Line-3
+N03-008,2025-05-14,19:45,PLC-Panel,Hydraulic valve stuck open,R. Sharma,1.2,Closed,Root cause: wear and tear,Night,Line-3,Line-3
+N03-009,2025-05-22,23:30,PLC-Panel,Air compressor pressure low,B. Reddy,3.1,Open,Escalated to OEM,Night,Line-3,Line-3
+N03-010,2025-05-20,23:45,Cylinder-Main,Oil contamination in gearbox,K. Yadav,2.2,Closed,Escalated to OEM,Night,Line-3,Line-3
+N03-011,2025-05-28,23:15,Pump-2,Weld seam out of tolerance,V. Joshi,2.6,Closed,Preventive maintenance scheduled,Night,Line-3,Line-3
+N03-012,2025-05-28,19:30,Pump-2,Control panel display blank,M. Singh,2.8,Closed,Temporary fix applied,Night,Line-3,Line-3
+D04-001,2025-05-23,06:00,Cylinder-Main,Electrical trip — overload relay,M. Singh,5.3,Open,Spare part ordered — pending,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-002,2025-05-04,06:30,PLC-Panel,Drive belt worn — replacement needed,V. Joshi,3.1,Open,Preventive maintenance scheduled,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-003,2025-05-04,13:00,Motor-B,Emergency stop triggered — unknown cause,V. Joshi,1.1,Closed,Repaired and tested OK,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-004,2025-05-27,08:30,Motor-B,Strip break at forming section,P. Gupta,4.7,Closed,Root cause: wear and tear,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-005,2025-05-07,14:45,PLC-Panel,Hydraulic valve stuck open,K. Yadav,7.0,Open,Preventive maintenance scheduled,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-006,2025-05-13,06:00,Pump-2,Chain elongation on drive chain,A. Patel,2.5,Closed,Root cause: wear and tear,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-007,2025-05-26,14:00,Pump-1,Hydraulic leak in main cylinder,D. Mehta,3.9,Closed,Preventive maintenance scheduled,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-008,2025-05-30,09:30,Cylinder-Main,Electrical trip — overload relay,V. Joshi,1.0,Closed,Preventive maintenance scheduled,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-009,2025-05-06,09:45,Motor-B,Air compressor pressure low,A. Patel,5.4,Open,Temporary fix applied,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-010,2025-05-29,06:15,Cylinder-Main,Lubrication system fault — low level,N. Das,7.4,Closed,,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-011,2025-05-09,10:45,Cylinder-Main,Encoder signal lost on servo axis,B. Reddy,4.2,Closed,Repaired and tested OK,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-012,2025-05-03,12:30,Cylinder-Main,Hydraulic leak in main cylinder,P. Gupta,2.2,Closed,Repaired and tested OK,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-013,2025-05-07,10:00,Pump-1,Drive belt worn — replacement needed,B. Reddy,5.4,Open,Temporary fix applied,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-014,2025-05-13,12:45,Motor-B,Drive belt worn — replacement needed,S. Kumar,3.6,Closed,Spare part ordered — pending,Day,ERW-Pipe-A,ERW-Pipe-A
+D04-015,2025-05-04,08:30,Gearbox,Electrical trip — overload relay,V. Joshi,2.7,Open,Repaired and tested OK,Day,ERW-Pipe-A,ERW-Pipe-A
+N04-001,2025-05-17,18:30,Cylinder-Main,Limit switch failure — door interlock,P. Gupta,7.8,Closed,Repaired and tested OK,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-002,2025-05-10,22:45,Gearbox,Motor overheating — bearing failure,A. Patel,4.4,Closed,,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-003,2025-05-11,21:00,Pump-2,Vibration high on spindle motor,B. Reddy,1.5,Closed,,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-004,2025-05-28,18:15,Pump-1,Oil contamination in gearbox,B. Reddy,0.6,Closed,Root cause: wear and tear,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-005,2025-05-05,18:45,Motor-B,Chain elongation on drive chain,M. Singh,4.2,Closed,Preventive maintenance scheduled,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-006,2025-05-18,21:45,Pump-2,Hydraulic valve stuck open,B. Reddy,1.6,Closed,Temporary fix applied,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-007,2025-05-04,18:30,Gearbox,Limit switch failure — door interlock,B. Reddy,2.5,Closed,Preventive maintenance scheduled,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-008,2025-05-05,22:45,Pump-1,Hydraulic valve stuck open,B. Reddy,4.1,Closed,Resolved by operator adjustment,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-009,2025-05-17,20:15,Pump-2,Water leakage in cooling system,D. Mehta,2.3,Open,Repaired and tested OK,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-010,2025-05-21,23:45,Gearbox,Emergency stop triggered — unknown cause,M. Singh,4.2,Closed,Escalated to OEM,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-011,2025-05-04,18:45,Motor-B,Encoder signal lost on servo axis,V. Joshi,0.6,Closed,Temporary fix applied,Night,ERW-Pipe-A,ERW-Pipe-A
+N04-012,2025-05-29,21:30,Conveyor-Drive,Lubrication system fault — low level,D. Mehta,5.4,Open,Resolved by operator adjustment,Night,ERW-Pipe-A,ERW-Pipe-A
+D05-001,2025-05-21,13:00,Motor-B,Strip break at forming section,K. Yadav,8.0,Closed,Resolved by operator adjustment,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-002,2025-05-28,07:45,Pump-1,Electrical trip — overload relay,K. Yadav,7.3,Closed,Repaired and tested OK,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-003,2025-05-22,11:30,Gearbox,Pneumatic pressure drop in actuator,A. Patel,4.5,Closed,Temporary fix applied,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-004,2025-05-26,08:00,Gearbox,Lubrication system fault — low level,A. Patel,4.2,Closed,Root cause: wear and tear,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-005,2025-05-17,10:45,Cylinder-Main,Gear coupling worn — noise detected,R. Sharma,7.2,Closed,Preventive maintenance scheduled,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-006,2025-05-10,14:15,Motor-B,Hydraulic valve stuck open,S. Kumar,7.9,Closed,Resolved by operator adjustment,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-007,2025-05-09,10:45,Cylinder-Main,Weld seam out of tolerance,D. Mehta,6.9,Closed,Resolved by operator adjustment,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-008,2025-05-13,11:30,Cylinder-Main,Hydraulic leak in main cylinder,D. Mehta,2.6,Closed,Repaired and tested OK,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-009,2025-05-02,13:30,Pump-2,Lubrication system fault — low level,S. Kumar,2.1,Closed,Preventive maintenance scheduled,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-010,2025-05-10,08:00,Motor-A,Oil contamination in gearbox,V. Joshi,0.8,Closed,Temporary fix applied,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-011,2025-05-29,10:30,Gearbox,Coolant pump not starting,A. Patel,1.5,Closed,Escalated to OEM,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-012,2025-05-15,14:30,Pump-1,Vibration high on spindle motor,V. Joshi,7.8,Closed,Escalated to OEM,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-013,2025-05-06,07:45,Motor-B,Pneumatic pressure drop in actuator,A. Patel,7.0,Closed,Resolved by operator adjustment,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-014,2025-05-04,14:30,Motor-B,Emergency stop triggered — unknown cause,R. Sharma,2.5,Closed,Escalated to OEM,Day,ERW-Pipe-B,ERW-Pipe-B
+D05-015,2025-05-10,10:45,Conveyor-Drive,PLC fault code F-204 — sensor error,A. Patel,4.0,Closed,Escalated to OEM,Day,ERW-Pipe-B,ERW-Pipe-B
+N05-001,2025-05-02,22:15,Motor-B,Chain elongation on drive chain,V. Joshi,7.3,Closed,Resolved by operator adjustment,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-002,2025-05-28,19:00,Motor-A,Oil contamination in gearbox,V. Joshi,1.4,Closed,Temporary fix applied,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-003,2025-05-19,21:30,Gearbox,Water leakage in cooling system,M. Singh,7.1,Closed,,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-004,2025-05-12,21:30,Motor-A,Electrical trip — overload relay,S. Kumar,2.1,Closed,Root cause: wear and tear,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-005,2025-05-04,20:00,Conveyor-Drive,Air compressor pressure low,S. Kumar,1.0,Closed,Spare part ordered — pending,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-006,2025-05-04,21:00,Pump-2,Chain elongation on drive chain,N. Das,7.8,Closed,Escalated to OEM,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-007,2025-05-24,19:15,Motor-B,Coating thickness alarm,B. Reddy,2.1,Closed,Root cause: wear and tear,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-008,2025-05-21,19:00,Cylinder-Main,Pneumatic pressure drop in actuator,M. Singh,4.6,Open,Spare part ordered — pending,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-009,2025-05-10,18:15,Motor-A,Control panel display blank,A. Patel,4.9,Closed,Preventive maintenance scheduled,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-010,2025-05-30,19:45,Motor-B,Torch height error — cutting machine,P. Gupta,4.1,Open,Spare part ordered — pending,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-011,2025-05-17,22:15,Motor-A,Torch height error — cutting machine,B. Reddy,2.8,Closed,Repaired and tested OK,Night,ERW-Pipe-B,ERW-Pipe-B
+N05-012,2025-05-30,21:45,Gearbox,Gear coupling worn — noise detected,P. Gupta,4.2,Open,Spare part ordered — pending,Night,ERW-Pipe-B,ERW-Pipe-B
+D06-001,2025-05-03,07:30,Pump-1,Conveyor belt slip / misalignment,M. Singh,2.6,Closed,Escalated to OEM,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-002,2025-05-19,14:30,PLC-Panel,Encoder signal lost on servo axis,N. Das,3.7,Open,Spare part ordered — pending,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-003,2025-05-04,14:15,Gearbox,Hydraulic valve stuck open,A. Patel,3.6,Open,Resolved by operator adjustment,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-004,2025-05-18,07:30,Gearbox,Limit switch failure — door interlock,K. Yadav,3.3,Closed,,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-005,2025-05-29,07:00,Motor-B,Pipe OD out of spec — forming issue,P. Gupta,6.1,Closed,Temporary fix applied,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-006,2025-05-14,06:30,Motor-B,Pipe OD out of spec — forming issue,S. Kumar,7.1,Open,Resolved by operator adjustment,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-007,2025-05-04,06:30,Cylinder-Main,Control panel display blank,P. Gupta,4.8,Closed,,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-008,2025-05-24,07:30,Conveyor-Drive,PLC fault code F-204 — sensor error,K. Yadav,4.8,Open,Repaired and tested OK,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-009,2025-05-12,10:00,Pump-1,Vibration high on spindle motor,K. Yadav,7.4,Closed,Temporary fix applied,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-010,2025-05-04,08:45,Motor-B,Pneumatic pressure drop in actuator,R. Sharma,1.2,Closed,Resolved by operator adjustment,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-011,2025-05-18,13:30,Pump-1,Control panel display blank,K. Yadav,5.9,Open,Spare part ordered — pending,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-012,2025-05-03,06:15,Pump-1,Coating thickness alarm,N. Das,0.9,Closed,,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-013,2025-05-10,12:45,PLC-Panel,Pipe OD out of spec — forming issue,K. Yadav,2.1,Closed,Escalated to OEM,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-014,2025-05-18,07:30,PLC-Panel,Encoder signal lost on servo axis,K. Yadav,0.8,Closed,Repaired and tested OK,Day,ERW-Pipe-C,ERW-Pipe-C
+D06-015,2025-05-31,09:30,Pump-2,Coating thickness alarm,M. Singh,6.2,Closed,Spare part ordered — pending,Day,ERW-Pipe-C,ERW-Pipe-C
+N06-001,2025-05-31,21:45,Pump-1,Pneumatic pressure drop in actuator,D. Mehta,4.5,Closed,Escalated to OEM,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-002,2025-05-29,21:00,Gearbox,Hydraulic leak in main cylinder,V. Joshi,7.4,Open,Resolved by operator adjustment,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-003,2025-05-13,21:45,Cylinder-Main,PLC fault code F-204 — sensor error,D. Mehta,0.7,Closed,,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-004,2025-05-05,23:30,Motor-B,Pipe OD out of spec — forming issue,P. Gupta,2.3,Closed,Spare part ordered — pending,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-005,2025-05-19,20:30,Pump-2,Limit switch failure — door interlock,M. Singh,1.1,Closed,Root cause: wear and tear,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-006,2025-05-03,20:30,Pump-1,Strip break at forming section,P. Gupta,1.6,Closed,Temporary fix applied,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-007,2025-05-07,23:00,Pump-1,Coating thickness alarm,V. Joshi,4.0,Closed,,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-008,2025-05-10,22:30,Conveyor-Drive,Pneumatic pressure drop in actuator,V. Joshi,1.0,Closed,Preventive maintenance scheduled,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-009,2025-05-06,20:00,Conveyor-Drive,Encoder signal lost on servo axis,P. Gupta,2.8,Closed,Repaired and tested OK,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-010,2025-05-20,20:00,Motor-B,Lubrication system fault — low level,N. Das,4.3,Closed,Repaired and tested OK,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-011,2025-05-17,22:15,Conveyor-Drive,Lubrication system fault — low level,V. Joshi,4.3,Open,,Night,ERW-Pipe-C,ERW-Pipe-C
+N06-012,2025-05-28,20:00,Pump-1,Motor overheating — bearing failure,A. Patel,5.8,Open,Temporary fix applied,Night,ERW-Pipe-C,ERW-Pipe-C
+D07-001,2025-05-20,11:30,Gearbox,Pipe OD out of spec — forming issue,S. Kumar,5.6,Closed,Escalated to OEM,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-002,2025-05-29,11:00,Gearbox,Oil contamination in gearbox,K. Yadav,5.9,Closed,Temporary fix applied,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-003,2025-05-21,07:15,Conveyor-Drive,Oil contamination in gearbox,D. Mehta,1.5,Closed,Spare part ordered — pending,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-004,2025-05-22,14:45,Conveyor-Drive,Pneumatic pressure drop in actuator,B. Reddy,1.2,Closed,Escalated to OEM,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-005,2025-05-31,11:30,Pump-1,Weld seam out of tolerance,S. Kumar,7.6,Closed,Root cause: wear and tear,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-006,2025-05-27,08:00,Cylinder-Main,PLC fault code F-204 — sensor error,B. Reddy,6.3,Open,Repaired and tested OK,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-007,2025-05-10,11:15,Gearbox,Pneumatic pressure drop in actuator,M. Singh,1.9,Closed,Temporary fix applied,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-008,2025-05-08,13:00,Gearbox,Control panel display blank,A. Patel,7.8,Closed,,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-009,2025-05-24,14:15,Cylinder-Main,Drive belt worn — replacement needed,A. Patel,3.3,Open,,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-010,2025-05-17,10:45,Gearbox,Coolant pump not starting,A. Patel,6.5,Closed,Preventive maintenance scheduled,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-011,2025-05-30,13:30,Motor-B,Electrical trip — overload relay,B. Reddy,6.9,Closed,Temporary fix applied,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-012,2025-05-23,13:15,Gearbox,Conveyor belt slip / misalignment,A. Patel,6.6,Open,Repaired and tested OK,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-013,2025-05-18,06:45,Conveyor-Drive,Strip break at forming section,D. Mehta,8.0,Closed,Repaired and tested OK,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-014,2025-05-21,07:30,Pump-1,Pneumatic pressure drop in actuator,R. Sharma,2.7,Open,Temporary fix applied,Day,Spiral-Mill-1,Spiral-Mill-1
+D07-015,2025-05-07,13:45,Motor-A,Conveyor belt slip / misalignment,R. Sharma,2.4,Open,Resolved by operator adjustment,Day,Spiral-Mill-1,Spiral-Mill-1
+N07-001,2025-05-28,20:15,Cylinder-Main,PLC fault code F-204 — sensor error,R. Sharma,2.3,Closed,,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-002,2025-05-29,18:45,Motor-A,Chain elongation on drive chain,B. Reddy,4.8,Closed,Preventive maintenance scheduled,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-003,2025-05-18,18:30,Pump-2,Water leakage in cooling system,D. Mehta,1.9,Closed,Escalated to OEM,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-004,2025-05-29,22:00,Gearbox,Drive belt worn — replacement needed,R. Sharma,5.3,Open,Preventive maintenance scheduled,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-005,2025-05-08,18:30,Motor-B,Control panel display blank,A. Patel,6.0,Closed,Escalated to OEM,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-006,2025-05-27,18:30,Conveyor-Drive,Chain elongation on drive chain,M. Singh,6.7,Closed,,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-007,2025-05-11,19:15,Motor-B,Electrical trip — overload relay,V. Joshi,0.8,Closed,Root cause: wear and tear,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-008,2025-05-03,18:30,Cylinder-Main,Encoder signal lost on servo axis,D. Mehta,7.9,Closed,Preventive maintenance scheduled,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-009,2025-05-30,23:15,Cylinder-Main,Control panel display blank,R. Sharma,7.0,Closed,Spare part ordered — pending,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-010,2025-05-06,20:45,Gearbox,Torch height error — cutting machine,V. Joshi,7.2,Closed,Temporary fix applied,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-011,2025-05-16,23:45,Conveyor-Drive,Encoder signal lost on servo axis,K. Yadav,6.5,Closed,Spare part ordered — pending,Night,Spiral-Mill-1,Spiral-Mill-1
+N07-012,2025-05-18,22:15,Cylinder-Main,Limit switch failure — door interlock,P. Gupta,1.1,Closed,Preventive maintenance scheduled,Night,Spiral-Mill-1,Spiral-Mill-1
+D08-001,2025-05-17,12:15,PLC-Panel,Control panel display blank,V. Joshi,0.8,Open,Escalated to OEM,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-002,2025-05-12,12:30,Motor-A,Conveyor belt slip / misalignment,D. Mehta,3.2,Open,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-003,2025-05-31,08:45,Motor-A,Pneumatic pressure drop in actuator,P. Gupta,2.3,Closed,Escalated to OEM,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-004,2025-05-19,06:15,PLC-Panel,Control panel display blank,S. Kumar,3.8,Closed,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-005,2025-05-15,11:45,Conveyor-Drive,Chain elongation on drive chain,K. Yadav,2.4,Closed,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-006,2025-05-16,14:45,Motor-B,Vibration high on spindle motor,K. Yadav,5.8,Closed,Preventive maintenance scheduled,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-007,2025-05-09,13:15,Motor-B,Pneumatic pressure drop in actuator,P. Gupta,3.9,Open,,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-008,2025-05-29,11:30,Motor-B,Air compressor pressure low,B. Reddy,2.7,Closed,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-009,2025-05-09,08:30,Pump-2,PLC fault code F-204 — sensor error,A. Patel,6.4,Closed,,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-010,2025-05-31,11:30,PLC-Panel,Air compressor pressure low,M. Singh,5.1,Closed,Preventive maintenance scheduled,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-011,2025-05-19,13:45,Gearbox,Water leakage in cooling system,P. Gupta,1.4,Closed,Spare part ordered — pending,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-012,2025-05-17,13:30,Pump-1,Coating thickness alarm,B. Reddy,5.3,Closed,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-013,2025-05-18,14:00,Motor-B,Encoder signal lost on servo axis,M. Singh,2.8,Closed,Root cause: wear and tear,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-014,2025-05-20,14:30,Motor-B,Vibration high on spindle motor,A. Patel,5.3,Closed,Temporary fix applied,Day,Spiral-Mill-2,Spiral-Mill-2
+D08-015,2025-05-11,10:00,Pump-1,Water leakage in cooling system,N. Das,1.7,Closed,Escalated to OEM,Day,Spiral-Mill-2,Spiral-Mill-2
+N08-001,2025-05-05,22:00,Motor-A,Conveyor belt slip / misalignment,R. Sharma,7.6,Open,Preventive maintenance scheduled,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-002,2025-05-11,19:45,Motor-A,Drive belt worn — replacement needed,B. Reddy,2.7,Open,,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-003,2025-05-24,23:45,Cylinder-Main,Hydraulic valve stuck open,P. Gupta,5.7,Closed,Resolved by operator adjustment,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-004,2025-05-16,21:15,Conveyor-Drive,Lubrication system fault — low level,M. Singh,2.8,Closed,Escalated to OEM,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-005,2025-05-19,19:30,Motor-B,Limit switch failure — door interlock,A. Patel,4.0,Closed,Root cause: wear and tear,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-006,2025-05-27,18:00,Cylinder-Main,Emergency stop triggered — unknown cause,N. Das,3.6,Open,Temporary fix applied,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-007,2025-05-05,20:30,Pump-2,Coating thickness alarm,M. Singh,4.2,Closed,,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-008,2025-05-03,20:45,Motor-A,Conveyor belt slip / misalignment,D. Mehta,4.3,Open,Root cause: wear and tear,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-009,2025-05-13,20:00,Motor-A,Oil contamination in gearbox,V. Joshi,5.0,Open,,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-010,2025-05-22,22:00,Motor-B,Pipe OD out of spec — forming issue,M. Singh,7.1,Closed,Resolved by operator adjustment,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-011,2025-05-20,18:45,Motor-A,Water leakage in cooling system,B. Reddy,2.0,Closed,Spare part ordered — pending,Night,Spiral-Mill-2,Spiral-Mill-2
+N08-012,2025-05-19,22:45,Cylinder-Main,Lubrication system fault — low level,N. Das,1.4,Open,Resolved by operator adjustment,Night,Spiral-Mill-2,Spiral-Mill-2
+D09-001,2025-05-20,11:30,Pump-1,Weld seam out of tolerance,N. Das,4.3,Closed,Repaired and tested OK,Day,Forming-Mill,Forming-Mill
+D09-002,2025-05-30,08:30,PLC-Panel,Encoder signal lost on servo axis,V. Joshi,1.6,Open,Temporary fix applied,Day,Forming-Mill,Forming-Mill
+D09-003,2025-05-21,11:15,Gearbox,Lubrication system fault — low level,K. Yadav,5.0,Closed,,Day,Forming-Mill,Forming-Mill
+D09-004,2025-05-09,10:45,Motor-A,Control panel display blank,S. Kumar,5.6,Open,Preventive maintenance scheduled,Day,Forming-Mill,Forming-Mill
+D09-005,2025-05-06,06:45,Cylinder-Main,Chain elongation on drive chain,N. Das,4.8,Closed,,Day,Forming-Mill,Forming-Mill
+D09-006,2025-05-26,14:45,Pump-1,Gear coupling worn — noise detected,A. Patel,0.7,Open,Spare part ordered — pending,Day,Forming-Mill,Forming-Mill
+D09-007,2025-05-25,06:45,Conveyor-Drive,Pipe OD out of spec — forming issue,M. Singh,3.6,Closed,,Day,Forming-Mill,Forming-Mill
+D09-008,2025-05-04,06:15,Pump-2,Air compressor pressure low,S. Kumar,8.0,Closed,Resolved by operator adjustment,Day,Forming-Mill,Forming-Mill
+D09-009,2025-05-21,08:45,Conveyor-Drive,Air compressor pressure low,S. Kumar,5.6,Open,Preventive maintenance scheduled,Day,Forming-Mill,Forming-Mill
+D09-010,2025-05-12,13:15,Pump-2,Vibration high on spindle motor,B. Reddy,2.7,Open,Preventive maintenance scheduled,Day,Forming-Mill,Forming-Mill
+D09-011,2025-05-07,10:15,PLC-Panel,Limit switch failure — door interlock,V. Joshi,3.1,Open,Preventive maintenance scheduled,Day,Forming-Mill,Forming-Mill
+D09-012,2025-05-22,07:45,Gearbox,Control panel display blank,M. Singh,2.7,Closed,Spare part ordered — pending,Day,Forming-Mill,Forming-Mill
+D09-013,2025-05-20,13:30,PLC-Panel,Weld seam out of tolerance,A. Patel,6.7,Closed,Preventive maintenance scheduled,Day,Forming-Mill,Forming-Mill
+D09-014,2025-05-27,07:15,Pump-2,Motor overheating — bearing failure,B. Reddy,2.2,Closed,Spare part ordered — pending,Day,Forming-Mill,Forming-Mill
+D09-015,2025-05-18,11:45,Motor-B,Gear coupling worn — noise detected,M. Singh,0.5,Closed,Temporary fix applied,Day,Forming-Mill,Forming-Mill
+N09-001,2025-05-18,23:45,PLC-Panel,Chain elongation on drive chain,A. Patel,6.2,Closed,Preventive maintenance scheduled,Night,Forming-Mill,Forming-Mill
+N09-002,2025-05-11,18:00,Pump-2,Air compressor pressure low,R. Sharma,7.3,Closed,Temporary fix applied,Night,Forming-Mill,Forming-Mill
+N09-003,2025-05-02,18:45,PLC-Panel,Coolant pump not starting,K. Yadav,7.1,Closed,Spare part ordered — pending,Night,Forming-Mill,Forming-Mill
+N09-004,2025-05-02,20:30,PLC-Panel,Chain elongation on drive chain,B. Reddy,4.4,Open,Temporary fix applied,Night,Forming-Mill,Forming-Mill
+N09-005,2025-05-04,22:45,Cylinder-Main,Weld seam out of tolerance,P. Gupta,3.0,Closed,Preventive maintenance scheduled,Night,Forming-Mill,Forming-Mill
+N09-006,2025-05-09,19:00,Conveyor-Drive,Oil contamination in gearbox,N. Das,5.6,Closed,Resolved by operator adjustment,Night,Forming-Mill,Forming-Mill
+N09-007,2025-05-05,21:30,Motor-B,Emergency stop triggered — unknown cause,P. Gupta,1.9,Closed,Escalated to OEM,Night,Forming-Mill,Forming-Mill
+N09-008,2025-05-02,19:00,Cylinder-Main,Emergency stop triggered — unknown cause,A. Patel,3.9,Closed,Escalated to OEM,Night,Forming-Mill,Forming-Mill
+N09-009,2025-05-22,22:00,Cylinder-Main,Chain elongation on drive chain,S. Kumar,5.7,Closed,Spare part ordered — pending,Night,Forming-Mill,Forming-Mill
+N09-010,2025-05-17,20:15,Gearbox,Gear coupling worn — noise detected,B. Reddy,7.4,Open,Preventive maintenance scheduled,Night,Forming-Mill,Forming-Mill
+N09-011,2025-05-09,18:30,Conveyor-Drive,Lubrication system fault — low level,A. Patel,2.1,Closed,Temporary fix applied,Night,Forming-Mill,Forming-Mill
+N09-012,2025-05-17,23:30,Gearbox,Electrical trip — overload relay,B. Reddy,7.3,Open,Root cause: wear and tear,Night,Forming-Mill,Forming-Mill
+D10-001,2025-05-07,09:00,PLC-Panel,Encoder signal lost on servo axis,S. Kumar,1.1,Closed,Repaired and tested OK,Day,Sizing-Mill,Sizing-Mill
+D10-002,2025-05-05,14:15,Pump-1,Coolant pump not starting,S. Kumar,6.9,Closed,Root cause: wear and tear,Day,Sizing-Mill,Sizing-Mill
+D10-003,2025-05-09,13:00,PLC-Panel,Motor overheating — bearing failure,V. Joshi,1.5,Closed,Repaired and tested OK,Day,Sizing-Mill,Sizing-Mill
+D10-004,2025-05-14,13:30,Motor-A,Emergency stop triggered — unknown cause,K. Yadav,6.6,Closed,Spare part ordered — pending,Day,Sizing-Mill,Sizing-Mill
+D10-005,2025-05-30,12:30,Motor-B,Air compressor pressure low,R. Sharma,7.5,Closed,,Day,Sizing-Mill,Sizing-Mill
+D10-006,2025-05-30,10:45,Pump-1,Coating thickness alarm,M. Singh,6.2,Open,Resolved by operator adjustment,Day,Sizing-Mill,Sizing-Mill
+D10-007,2025-05-20,12:45,Gearbox,Emergency stop triggered — unknown cause,P. Gupta,5.6,Closed,Temporary fix applied,Day,Sizing-Mill,Sizing-Mill
+D10-008,2025-05-11,11:00,Pump-1,Air compressor pressure low,D. Mehta,4.5,Closed,Root cause: wear and tear,Day,Sizing-Mill,Sizing-Mill
+D10-009,2025-05-05,06:00,Cylinder-Main,Hydraulic valve stuck open,B. Reddy,3.7,Closed,Root cause: wear and tear,Day,Sizing-Mill,Sizing-Mill
+D10-010,2025-05-24,13:30,Pump-1,Vibration high on spindle motor,A. Patel,7.5,Closed,Spare part ordered — pending,Day,Sizing-Mill,Sizing-Mill
+D10-011,2025-05-30,12:00,Pump-2,Weld seam out of tolerance,P. Gupta,1.3,Closed,Repaired and tested OK,Day,Sizing-Mill,Sizing-Mill
+D10-012,2025-05-24,06:45,PLC-Panel,Strip break at forming section,B. Reddy,2.1,Open,Repaired and tested OK,Day,Sizing-Mill,Sizing-Mill
+D10-013,2025-05-27,14:30,Pump-2,Torch height error — cutting machine,N. Das,2.9,Closed,Escalated to OEM,Day,Sizing-Mill,Sizing-Mill
+D10-014,2025-05-24,10:15,Pump-2,Pipe OD out of spec — forming issue,K. Yadav,2.6,Closed,Temporary fix applied,Day,Sizing-Mill,Sizing-Mill
+D10-015,2025-05-11,12:45,Motor-A,Control panel display blank,D. Mehta,6.4,Closed,Resolved by operator adjustment,Day,Sizing-Mill,Sizing-Mill
+N10-001,2025-05-18,19:30,Gearbox,Coolant pump not starting,B. Reddy,4.1,Open,Preventive maintenance scheduled,Night,Sizing-Mill,Sizing-Mill
+N10-002,2025-05-04,23:15,PLC-Panel,Motor overheating — bearing failure,B. Reddy,3.6,Closed,Temporary fix applied,Night,Sizing-Mill,Sizing-Mill
+N10-003,2025-05-19,19:30,Pump-2,Limit switch failure — door interlock,P. Gupta,7.4,Open,Spare part ordered — pending,Night,Sizing-Mill,Sizing-Mill
+N10-004,2025-05-14,23:15,Motor-A,Vibration high on spindle motor,D. Mehta,5.6,Closed,Spare part ordered — pending,Night,Sizing-Mill,Sizing-Mill
+N10-005,2025-05-25,22:15,PLC-Panel,Weld seam out of tolerance,S. Kumar,2.8,Open,Root cause: wear and tear,Night,Sizing-Mill,Sizing-Mill
+N10-006,2025-05-02,19:00,PLC-Panel,Strip break at forming section,N. Das,5.8,Closed,Root cause: wear and tear,Night,Sizing-Mill,Sizing-Mill
+N10-007,2025-05-14,20:30,Gearbox,Hydraulic valve stuck open,B. Reddy,5.4,Closed,Escalated to OEM,Night,Sizing-Mill,Sizing-Mill
+N10-008,2025-05-15,21:45,Motor-B,Torch height error — cutting machine,V. Joshi,6.2,Closed,Root cause: wear and tear,Night,Sizing-Mill,Sizing-Mill
+N10-009,2025-05-20,20:45,Motor-A,Water leakage in cooling system,A. Patel,6.1,Closed,Resolved by operator adjustment,Night,Sizing-Mill,Sizing-Mill
+N10-010,2025-05-22,19:15,Conveyor-Drive,Strip break at forming section,D. Mehta,4.8,Closed,Escalated to OEM,Night,Sizing-Mill,Sizing-Mill
+N10-011,2025-05-23,21:45,PLC-Panel,Coolant pump not starting,S. Kumar,1.8,Closed,,Night,Sizing-Mill,Sizing-Mill
+N10-012,2025-05-26,22:00,Motor-A,Conveyor belt slip / misalignment,R. Sharma,6.2,Closed,Root cause: wear and tear,Night,Sizing-Mill,Sizing-Mill
+D11-001,2025-05-29,08:00,Pump-2,Encoder signal lost on servo axis,V. Joshi,3.3,Closed,,Day,Straightener,Straightener
+D11-002,2025-05-10,13:00,Motor-A,Air compressor pressure low,B. Reddy,3.6,Closed,Preventive maintenance scheduled,Day,Straightener,Straightener
+D11-003,2025-05-14,10:00,Gearbox,Coolant pump not starting,P. Gupta,7.4,Closed,Root cause: wear and tear,Day,Straightener,Straightener
+D11-004,2025-05-25,14:30,Conveyor-Drive,Vibration high on spindle motor,D. Mehta,1.1,Open,,Day,Straightener,Straightener
+D11-005,2025-05-13,09:15,Cylinder-Main,Gear coupling worn — noise detected,P. Gupta,5.4,Open,Repaired and tested OK,Day,Straightener,Straightener
+D11-006,2025-05-29,12:45,Gearbox,Air compressor pressure low,V. Joshi,0.9,Closed,Temporary fix applied,Day,Straightener,Straightener
+D11-007,2025-05-29,13:45,Conveyor-Drive,Water leakage in cooling system,P. Gupta,7.2,Open,Root cause: wear and tear,Day,Straightener,Straightener
+D11-008,2025-05-25,13:30,Motor-A,Conveyor belt slip / misalignment,K. Yadav,7.2,Closed,Repaired and tested OK,Day,Straightener,Straightener
+D11-009,2025-05-26,11:00,Pump-2,Water leakage in cooling system,M. Singh,6.1,Closed,Resolved by operator adjustment,Day,Straightener,Straightener
+D11-010,2025-05-02,07:30,Pump-1,Water leakage in cooling system,A. Patel,4.8,Open,Escalated to OEM,Day,Straightener,Straightener
+D11-011,2025-05-19,08:00,Conveyor-Drive,Motor overheating — bearing failure,P. Gupta,3.8,Open,Escalated to OEM,Day,Straightener,Straightener
+D11-012,2025-05-12,12:30,Motor-A,Chain elongation on drive chain,K. Yadav,6.4,Closed,Root cause: wear and tear,Day,Straightener,Straightener
+D11-013,2025-05-20,14:45,Gearbox,Coolant pump not starting,N. Das,5.5,Closed,Preventive maintenance scheduled,Day,Straightener,Straightener
+D11-014,2025-05-06,09:00,Motor-B,Vibration high on spindle motor,M. Singh,3.3,Open,Temporary fix applied,Day,Straightener,Straightener
+D11-015,2025-05-08,12:30,Conveyor-Drive,PLC fault code F-204 — sensor error,P. Gupta,0.5,Closed,Escalated to OEM,Day,Straightener,Straightener
+N11-001,2025-05-07,20:00,Pump-1,Conveyor belt slip / misalignment,M. Singh,3.7,Closed,Resolved by operator adjustment,Night,Straightener,Straightener
+N11-002,2025-05-28,18:00,Conveyor-Drive,Air compressor pressure low,P. Gupta,5.0,Open,Resolved by operator adjustment,Night,Straightener,Straightener
+N11-003,2025-05-31,20:45,Gearbox,Coating thickness alarm,P. Gupta,5.9,Closed,Root cause: wear and tear,Night,Straightener,Straightener
+N11-004,2025-05-13,22:15,Gearbox,Coolant pump not starting,M. Singh,2.5,Closed,Temporary fix applied,Night,Straightener,Straightener
+N11-005,2025-05-29,19:45,Cylinder-Main,Pipe OD out of spec — forming issue,K. Yadav,4.1,Closed,Preventive maintenance scheduled,Night,Straightener,Straightener
+N11-006,2025-05-24,23:45,Pump-2,Hydraulic valve stuck open,P. Gupta,1.5,Closed,Resolved by operator adjustment,Night,Straightener,Straightener
+N11-007,2025-05-21,22:45,Conveyor-Drive,Hydraulic valve stuck open,S. Kumar,3.7,Open,Temporary fix applied,Night,Straightener,Straightener
+N11-008,2025-05-22,20:15,PLC-Panel,Limit switch failure — door interlock,M. Singh,7.7,Open,Preventive maintenance scheduled,Night,Straightener,Straightener
+N11-009,2025-05-08,23:45,Pump-2,Limit switch failure — door interlock,D. Mehta,2.6,Open,Escalated to OEM,Night,Straightener,Straightener
+N11-010,2025-05-28,22:15,Pump-1,Gear coupling worn — noise detected,B. Reddy,0.7,Closed,Root cause: wear and tear,Night,Straightener,Straightener
+N11-011,2025-05-17,20:00,Gearbox,Gear coupling worn — noise detected,V. Joshi,1.5,Closed,Preventive maintenance scheduled,Night,Straightener,Straightener
+N11-012,2025-05-10,19:45,Gearbox,Conveyor belt slip / misalignment,V. Joshi,7.9,Closed,Resolved by operator adjustment,Night,Straightener,Straightener
+D12-001,2025-05-14,14:45,Motor-A,Control panel display blank,B. Reddy,5.0,Open,Spare part ordered — pending,Day,Hydro-Test-1,Hydro-Test-1
+D12-002,2025-05-07,09:30,Pump-1,Chain elongation on drive chain,N. Das,0.8,Open,Resolved by operator adjustment,Day,Hydro-Test-1,Hydro-Test-1
+D12-003,2025-05-07,11:45,Motor-B,Hydraulic leak in main cylinder,P. Gupta,2.4,Closed,Root cause: wear and tear,Day,Hydro-Test-1,Hydro-Test-1
+D12-004,2025-05-17,11:45,PLC-Panel,Coating thickness alarm,N. Das,5.7,Closed,Repaired and tested OK,Day,Hydro-Test-1,Hydro-Test-1
+D12-005,2025-05-16,07:30,Gearbox,Conveyor belt slip / misalignment,P. Gupta,6.7,Closed,Escalated to OEM,Day,Hydro-Test-1,Hydro-Test-1
+D12-006,2025-05-22,11:45,Pump-2,Encoder signal lost on servo axis,V. Joshi,3.1,Closed,,Day,Hydro-Test-1,Hydro-Test-1
+D12-007,2025-05-21,07:30,Motor-A,Electrical trip — overload relay,P. Gupta,0.7,Closed,Spare part ordered — pending,Day,Hydro-Test-1,Hydro-Test-1
+D12-008,2025-05-10,08:15,Pump-1,Air compressor pressure low,M. Singh,3.0,Closed,,Day,Hydro-Test-1,Hydro-Test-1
+D12-009,2025-05-24,12:15,Pump-1,Chain elongation on drive chain,D. Mehta,3.5,Closed,Root cause: wear and tear,Day,Hydro-Test-1,Hydro-Test-1
+D12-010,2025-05-17,12:45,Motor-A,Electrical trip — overload relay,A. Patel,2.0,Open,Spare part ordered — pending,Day,Hydro-Test-1,Hydro-Test-1
+D12-011,2025-05-13,07:15,Conveyor-Drive,Limit switch failure — door interlock,A. Patel,3.9,Closed,,Day,Hydro-Test-1,Hydro-Test-1
+D12-012,2025-05-15,11:45,Gearbox,Water leakage in cooling system,P. Gupta,3.1,Open,Temporary fix applied,Day,Hydro-Test-1,Hydro-Test-1
+D12-013,2025-05-05,10:00,Pump-1,Limit switch failure — door interlock,P. Gupta,2.3,Closed,Escalated to OEM,Day,Hydro-Test-1,Hydro-Test-1
+D12-014,2025-05-09,08:45,Gearbox,Lubrication system fault — low level,M. Singh,4.8,Closed,,Day,Hydro-Test-1,Hydro-Test-1
+D12-015,2025-05-11,14:15,Pump-1,Drive belt worn — replacement needed,K. Yadav,1.6,Closed,,Day,Hydro-Test-1,Hydro-Test-1
+N12-001,2025-05-12,18:30,Motor-A,Drive belt worn — replacement needed,M. Singh,2.0,Closed,,Night,Hydro-Test-1,Hydro-Test-1
+N12-002,2025-05-18,23:45,Gearbox,Electrical trip — overload relay,V. Joshi,4.2,Closed,Repaired and tested OK,Night,Hydro-Test-1,Hydro-Test-1
+N12-003,2025-05-06,19:30,Motor-A,Vibration high on spindle motor,A. Patel,4.5,Closed,,Night,Hydro-Test-1,Hydro-Test-1
+N12-004,2025-05-13,23:45,Motor-B,Water leakage in cooling system,P. Gupta,2.5,Closed,Escalated to OEM,Night,Hydro-Test-1,Hydro-Test-1
+N12-005,2025-05-14,18:45,Pump-2,Pipe OD out of spec — forming issue,P. Gupta,6.0,Closed,Root cause: wear and tear,Night,Hydro-Test-1,Hydro-Test-1
+N12-006,2025-05-22,18:45,Cylinder-Main,Control panel display blank,P. Gupta,3.8,Open,Root cause: wear and tear,Night,Hydro-Test-1,Hydro-Test-1
+N12-007,2025-05-25,23:30,Gearbox,Coolant pump not starting,N. Das,1.5,Closed,Root cause: wear and tear,Night,Hydro-Test-1,Hydro-Test-1
+N12-008,2025-05-06,18:30,Cylinder-Main,Lubrication system fault — low level,B. Reddy,1.8,Open,Preventive maintenance scheduled,Night,Hydro-Test-1,Hydro-Test-1
+N12-009,2025-05-22,22:30,Motor-B,Pneumatic pressure drop in actuator,D. Mehta,7.4,Open,Temporary fix applied,Night,Hydro-Test-1,Hydro-Test-1
+N12-010,2025-05-09,19:15,Pump-1,Electrical trip — overload relay,S. Kumar,6.7,Open,Resolved by operator adjustment,Night,Hydro-Test-1,Hydro-Test-1
+N12-011,2025-05-16,19:30,Gearbox,Emergency stop triggered — unknown cause,V. Joshi,1.1,Open,Spare part ordered — pending,Night,Hydro-Test-1,Hydro-Test-1
+N12-012,2025-05-19,22:30,Conveyor-Drive,Hydraulic valve stuck open,V. Joshi,3.0,Closed,Spare part ordered — pending,Night,Hydro-Test-1,Hydro-Test-1
+D13-001,2025-05-08,13:30,Motor-B,Air compressor pressure low,D. Mehta,2.1,Closed,Root cause: wear and tear,Day,Hydro-Test-2,Hydro-Test-2
+D13-002,2025-05-16,10:30,Cylinder-Main,Limit switch failure — door interlock,B. Reddy,4.8,Closed,,Day,Hydro-Test-2,Hydro-Test-2
+D13-003,2025-05-06,11:00,Motor-A,PLC fault code F-204 — sensor error,V. Joshi,0.6,Open,Temporary fix applied,Day,Hydro-Test-2,Hydro-Test-2
+D13-004,2025-05-17,13:00,Gearbox,Weld seam out of tolerance,M. Singh,7.1,Closed,Preventive maintenance scheduled,Day,Hydro-Test-2,Hydro-Test-2
+D13-005,2025-05-29,11:30,Motor-B,Control panel display blank,M. Singh,0.9,Closed,Root cause: wear and tear,Day,Hydro-Test-2,Hydro-Test-2
+D13-006,2025-05-18,07:00,Motor-A,Weld seam out of tolerance,V. Joshi,1.1,Closed,,Day,Hydro-Test-2,Hydro-Test-2
+D13-007,2025-05-31,06:30,Motor-B,Pipe OD out of spec — forming issue,M. Singh,4.1,Closed,Spare part ordered — pending,Day,Hydro-Test-2,Hydro-Test-2
+D13-008,2025-05-08,07:00,Conveyor-Drive,Control panel display blank,K. Yadav,1.5,Open,Temporary fix applied,Day,Hydro-Test-2,Hydro-Test-2
+D13-009,2025-05-11,08:00,Motor-A,Lubrication system fault — low level,M. Singh,3.8,Closed,Temporary fix applied,Day,Hydro-Test-2,Hydro-Test-2
+D13-010,2025-05-02,12:45,Pump-2,Conveyor belt slip / misalignment,P. Gupta,1.6,Closed,Resolved by operator adjustment,Day,Hydro-Test-2,Hydro-Test-2
+D13-011,2025-05-20,12:30,Pump-1,Strip break at forming section,K. Yadav,5.3,Closed,Preventive maintenance scheduled,Day,Hydro-Test-2,Hydro-Test-2
+D13-012,2025-05-07,06:30,Pump-2,Encoder signal lost on servo axis,N. Das,4.3,Closed,Preventive maintenance scheduled,Day,Hydro-Test-2,Hydro-Test-2
+D13-013,2025-05-11,06:15,PLC-Panel,Emergency stop triggered — unknown cause,P. Gupta,2.3,Closed,Spare part ordered — pending,Day,Hydro-Test-2,Hydro-Test-2
+D13-014,2025-05-15,06:30,Conveyor-Drive,Pneumatic pressure drop in actuator,D. Mehta,7.0,Closed,Escalated to OEM,Day,Hydro-Test-2,Hydro-Test-2
+D13-015,2025-05-14,08:45,Motor-B,Hydraulic leak in main cylinder,N. Das,1.0,Closed,Repaired and tested OK,Day,Hydro-Test-2,Hydro-Test-2
+N13-001,2025-05-02,18:45,Cylinder-Main,Chain elongation on drive chain,B. Reddy,6.3,Closed,Resolved by operator adjustment,Night,Hydro-Test-2,Hydro-Test-2
+N13-002,2025-05-29,23:15,Cylinder-Main,Conveyor belt slip / misalignment,K. Yadav,1.1,Open,Temporary fix applied,Night,Hydro-Test-2,Hydro-Test-2
+N13-003,2025-05-14,20:45,Motor-B,Oil contamination in gearbox,D. Mehta,6.0,Open,Repaired and tested OK,Night,Hydro-Test-2,Hydro-Test-2
+N13-004,2025-05-24,18:45,Motor-B,Hydraulic valve stuck open,N. Das,5.1,Closed,Temporary fix applied,Night,Hydro-Test-2,Hydro-Test-2
+N13-005,2025-05-28,18:15,Motor-A,Coolant pump not starting,V. Joshi,7.6,Closed,Preventive maintenance scheduled,Night,Hydro-Test-2,Hydro-Test-2
+N13-006,2025-05-26,20:15,Cylinder-Main,Torch height error — cutting machine,P. Gupta,6.3,Closed,Resolved by operator adjustment,Night,Hydro-Test-2,Hydro-Test-2
+N13-007,2025-05-23,22:00,Cylinder-Main,Electrical trip — overload relay,N. Das,5.2,Closed,Escalated to OEM,Night,Hydro-Test-2,Hydro-Test-2
+N13-008,2025-05-30,21:15,Conveyor-Drive,Coolant pump not starting,K. Yadav,6.3,Open,Spare part ordered — pending,Night,Hydro-Test-2,Hydro-Test-2
+N13-009,2025-05-24,23:00,Motor-A,Hydraulic leak in main cylinder,A. Patel,0.8,Closed,Temporary fix applied,Night,Hydro-Test-2,Hydro-Test-2
+N13-010,2025-05-26,18:45,Pump-2,Limit switch failure — door interlock,A. Patel,3.6,Closed,Preventive maintenance scheduled,Night,Hydro-Test-2,Hydro-Test-2
+N13-011,2025-05-05,18:30,Motor-B,Encoder signal lost on servo axis,R. Sharma,1.8,Open,Repaired and tested OK,Night,Hydro-Test-2,Hydro-Test-2
+N13-012,2025-05-19,18:45,Cylinder-Main,Coating thickness alarm,K. Yadav,3.0,Closed,Repaired and tested OK,Night,Hydro-Test-2,Hydro-Test-2
+D14-001,2025-05-20,09:30,Cylinder-Main,Torch height error — cutting machine,N. Das,2.3,Closed,,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-002,2025-05-07,09:15,Pump-1,Hydraulic leak in main cylinder,D. Mehta,0.7,Closed,Repaired and tested OK,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-003,2025-05-21,06:45,Cylinder-Main,PLC fault code F-204 — sensor error,A. Patel,4.5,Closed,,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-004,2025-05-30,08:30,Motor-B,Motor overheating — bearing failure,A. Patel,7.2,Closed,Escalated to OEM,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-005,2025-05-17,07:00,Pump-1,Chain elongation on drive chain,D. Mehta,1.1,Closed,Resolved by operator adjustment,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-006,2025-05-10,08:15,Cylinder-Main,Vibration high on spindle motor,S. Kumar,7.4,Closed,Escalated to OEM,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-007,2025-05-21,13:30,Pump-2,Conveyor belt slip / misalignment,A. Patel,1.5,Open,Spare part ordered — pending,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-008,2025-05-27,07:15,PLC-Panel,Hydraulic valve stuck open,S. Kumar,3.5,Closed,Root cause: wear and tear,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-009,2025-05-17,10:45,Cylinder-Main,PLC fault code F-204 — sensor error,P. Gupta,1.7,Closed,Repaired and tested OK,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-010,2025-05-25,11:15,Motor-B,Electrical trip — overload relay,A. Patel,7.8,Closed,Repaired and tested OK,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-011,2025-05-10,10:30,Pump-1,Hydraulic leak in main cylinder,D. Mehta,6.9,Closed,Root cause: wear and tear,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-012,2025-05-28,13:00,Pump-1,PLC fault code F-204 — sensor error,R. Sharma,1.0,Open,Root cause: wear and tear,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-013,2025-05-27,09:45,Conveyor-Drive,Gear coupling worn — noise detected,P. Gupta,4.9,Closed,Spare part ordered — pending,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-014,2025-05-31,07:15,PLC-Panel,Pneumatic pressure drop in actuator,P. Gupta,7.3,Open,Escalated to OEM,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+D14-015,2025-05-28,06:45,Motor-A,Coolant pump not starting,N. Das,3.7,Closed,,Day,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-001,2025-05-31,21:45,Pump-1,Control panel display blank,A. Patel,7.3,Closed,,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-002,2025-05-03,19:00,Pump-2,Chain elongation on drive chain,K. Yadav,4.2,Open,,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-003,2025-05-30,18:30,Gearbox,Pneumatic pressure drop in actuator,D. Mehta,2.0,Open,Root cause: wear and tear,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-004,2025-05-11,22:00,Gearbox,Electrical trip — overload relay,S. Kumar,4.1,Open,Escalated to OEM,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-005,2025-05-02,22:30,Gearbox,Vibration high on spindle motor,M. Singh,0.7,Closed,Repaired and tested OK,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-006,2025-05-03,20:00,PLC-Panel,Encoder signal lost on servo axis,S. Kumar,6.3,Open,Temporary fix applied,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-007,2025-05-28,19:15,Cylinder-Main,Air compressor pressure low,R. Sharma,6.2,Open,Resolved by operator adjustment,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-008,2025-05-20,19:15,Pump-2,Water leakage in cooling system,S. Kumar,6.5,Closed,Repaired and tested OK,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-009,2025-05-09,23:30,Pump-1,Water leakage in cooling system,A. Patel,6.8,Open,,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-010,2025-05-14,20:15,PLC-Panel,Motor overheating — bearing failure,P. Gupta,0.9,Closed,Repaired and tested OK,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-011,2025-05-15,21:00,Conveyor-Drive,Lubrication system fault — low level,A. Patel,6.5,Closed,Temporary fix applied,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+N14-012,2025-05-02,20:00,Motor-A,Pneumatic pressure drop in actuator,N. Das,5.8,Closed,Spare part ordered — pending,Night,Weld-Seam-Scanner,Weld-Seam-Scanner
+D15-001,2025-05-04,14:30,Motor-B,Control panel display blank,D. Mehta,4.9,Closed,Escalated to OEM,Day,UT-Scanner,UT-Scanner
+D15-002,2025-05-27,08:45,PLC-Panel,Chain elongation on drive chain,S. Kumar,1.8,Open,Escalated to OEM,Day,UT-Scanner,UT-Scanner
+D15-003,2025-05-24,08:45,Cylinder-Main,Torch height error — cutting machine,K. Yadav,1.5,Closed,Resolved by operator adjustment,Day,UT-Scanner,UT-Scanner
+D15-004,2025-05-04,06:15,Conveyor-Drive,Lubrication system fault — low level,A. Patel,5.3,Closed,,Day,UT-Scanner,UT-Scanner
+D15-005,2025-05-27,11:00,Pump-2,Control panel display blank,S. Kumar,1.8,Open,Spare part ordered — pending,Day,UT-Scanner,UT-Scanner
+D15-006,2025-05-05,11:45,Motor-A,Vibration high on spindle motor,A. Patel,2.4,Closed,Preventive maintenance scheduled,Day,UT-Scanner,UT-Scanner
+D15-007,2025-05-06,07:00,Motor-A,Emergency stop triggered — unknown cause,V. Joshi,6.0,Open,Resolved by operator adjustment,Day,UT-Scanner,UT-Scanner
+D15-008,2025-05-16,12:30,Gearbox,PLC fault code F-204 — sensor error,V. Joshi,6.4,Closed,Root cause: wear and tear,Day,UT-Scanner,UT-Scanner
+D15-009,2025-05-26,13:00,Motor-A,Oil contamination in gearbox,R. Sharma,2.9,Open,Spare part ordered — pending,Day,UT-Scanner,UT-Scanner
+D15-010,2025-05-21,08:45,Pump-1,Torch height error — cutting machine,P. Gupta,4.6,Open,Spare part ordered — pending,Day,UT-Scanner,UT-Scanner
+D15-011,2025-05-21,13:00,Gearbox,Chain elongation on drive chain,M. Singh,5.1,Closed,Repaired and tested OK,Day,UT-Scanner,UT-Scanner
+D15-012,2025-05-28,11:15,Pump-2,Pipe OD out of spec — forming issue,B. Reddy,5.9,Closed,Preventive maintenance scheduled,Day,UT-Scanner,UT-Scanner
+D15-013,2025-05-10,10:30,Pump-2,PLC fault code F-204 — sensor error,R. Sharma,3.4,Closed,,Day,UT-Scanner,UT-Scanner
+D15-014,2025-05-27,06:30,Motor-A,Pipe OD out of spec — forming issue,P. Gupta,2.7,Closed,,Day,UT-Scanner,UT-Scanner
+D15-015,2025-05-25,07:00,Pump-2,Coolant pump not starting,K. Yadav,7.8,Closed,Spare part ordered — pending,Day,UT-Scanner,UT-Scanner
+N15-001,2025-05-22,21:45,PLC-Panel,Gear coupling worn — noise detected,K. Yadav,1.2,Closed,Temporary fix applied,Night,UT-Scanner,UT-Scanner
+N15-002,2025-05-20,21:30,Pump-1,Hydraulic valve stuck open,R. Sharma,2.5,Closed,Root cause: wear and tear,Night,UT-Scanner,UT-Scanner
+N15-003,2025-05-05,20:00,Pump-1,Coating thickness alarm,P. Gupta,1.1,Closed,Resolved by operator adjustment,Night,UT-Scanner,UT-Scanner
+N15-004,2025-05-07,22:15,Motor-A,Emergency stop triggered — unknown cause,B. Reddy,3.6,Closed,,Night,UT-Scanner,UT-Scanner
+N15-005,2025-05-13,19:45,Cylinder-Main,Conveyor belt slip / misalignment,D. Mehta,7.3,Closed,Temporary fix applied,Night,UT-Scanner,UT-Scanner
+N15-006,2025-05-28,21:15,Pump-1,Weld seam out of tolerance,A. Patel,1.4,Closed,Resolved by operator adjustment,Night,UT-Scanner,UT-Scanner
+N15-007,2025-05-25,23:15,Cylinder-Main,Limit switch failure — door interlock,P. Gupta,1.2,Closed,Escalated to OEM,Night,UT-Scanner,UT-Scanner
+N15-008,2025-05-04,20:45,Motor-A,Electrical trip — overload relay,N. Das,4.9,Open,Spare part ordered — pending,Night,UT-Scanner,UT-Scanner
+N15-009,2025-05-18,19:15,Motor-B,PLC fault code F-204 — sensor error,N. Das,6.3,Open,Escalated to OEM,Night,UT-Scanner,UT-Scanner
+N15-010,2025-05-03,21:30,Gearbox,Chain elongation on drive chain,V. Joshi,4.8,Closed,Temporary fix applied,Night,UT-Scanner,UT-Scanner
+N15-011,2025-05-23,21:15,Gearbox,Motor overheating — bearing failure,D. Mehta,7.2,Closed,Root cause: wear and tear,Night,UT-Scanner,UT-Scanner
+N15-012,2025-05-30,23:45,Cylinder-Main,Control panel display blank,R. Sharma,3.0,Open,Preventive maintenance scheduled,Night,UT-Scanner,UT-Scanner
+D16-001,2025-05-23,13:00,Pump-2,Pneumatic pressure drop in actuator,K. Yadav,7.8,Closed,Escalated to OEM,Day,Coating-Line-1,Coating-Line-1
+D16-002,2025-05-23,12:00,Pump-2,Hydraulic valve stuck open,A. Patel,7.4,Closed,,Day,Coating-Line-1,Coating-Line-1
+D16-003,2025-05-07,14:30,Motor-A,Encoder signal lost on servo axis,M. Singh,1.0,Closed,Resolved by operator adjustment,Day,Coating-Line-1,Coating-Line-1
+D16-004,2025-05-27,14:00,Pump-1,Weld seam out of tolerance,A. Patel,6.8,Closed,,Day,Coating-Line-1,Coating-Line-1
+D16-005,2025-05-30,11:15,Cylinder-Main,Control panel display blank,V. Joshi,4.3,Closed,Spare part ordered — pending,Day,Coating-Line-1,Coating-Line-1
+D16-006,2025-05-10,06:15,Conveyor-Drive,Drive belt worn — replacement needed,N. Das,3.8,Open,,Day,Coating-Line-1,Coating-Line-1
+D16-007,2025-05-13,14:30,Conveyor-Drive,Coolant pump not starting,K. Yadav,6.1,Closed,Preventive maintenance scheduled,Day,Coating-Line-1,Coating-Line-1
+D16-008,2025-05-31,12:00,Pump-1,Water leakage in cooling system,A. Patel,6.9,Closed,Root cause: wear and tear,Day,Coating-Line-1,Coating-Line-1
+D16-009,2025-05-23,12:00,Motor-A,Drive belt worn — replacement needed,M. Singh,5.4,Closed,Repaired and tested OK,Day,Coating-Line-1,Coating-Line-1
+D16-010,2025-05-24,10:30,Cylinder-Main,Pipe OD out of spec — forming issue,D. Mehta,6.9,Closed,Root cause: wear and tear,Day,Coating-Line-1,Coating-Line-1
+D16-011,2025-05-17,10:45,Motor-B,Hydraulic leak in main cylinder,B. Reddy,8.0,Open,Escalated to OEM,Day,Coating-Line-1,Coating-Line-1
+D16-012,2025-05-14,10:30,Motor-B,Drive belt worn — replacement needed,P. Gupta,3.0,Closed,Escalated to OEM,Day,Coating-Line-1,Coating-Line-1
+D16-013,2025-05-04,10:30,Cylinder-Main,Weld seam out of tolerance,M. Singh,4.4,Closed,Repaired and tested OK,Day,Coating-Line-1,Coating-Line-1
+D16-014,2025-05-06,12:30,Pump-1,Torch height error — cutting machine,R. Sharma,5.4,Open,Preventive maintenance scheduled,Day,Coating-Line-1,Coating-Line-1
+D16-015,2025-05-02,12:45,Gearbox,Torch height error — cutting machine,R. Sharma,4.9,Open,Root cause: wear and tear,Day,Coating-Line-1,Coating-Line-1
+N16-001,2025-05-21,23:15,PLC-Panel,Gear coupling worn — noise detected,S. Kumar,4.3,Open,Temporary fix applied,Night,Coating-Line-1,Coating-Line-1
+N16-002,2025-05-22,18:45,Pump-1,Torch height error — cutting machine,K. Yadav,5.9,Closed,Temporary fix applied,Night,Coating-Line-1,Coating-Line-1
+N16-003,2025-05-10,20:00,Pump-2,Control panel display blank,A. Patel,6.1,Closed,Escalated to OEM,Night,Coating-Line-1,Coating-Line-1
+N16-004,2025-05-20,20:30,PLC-Panel,PLC fault code F-204 — sensor error,V. Joshi,0.9,Closed,Spare part ordered — pending,Night,Coating-Line-1,Coating-Line-1
+N16-005,2025-05-16,19:00,Gearbox,Encoder signal lost on servo axis,K. Yadav,3.6,Open,Temporary fix applied,Night,Coating-Line-1,Coating-Line-1
+N16-006,2025-05-27,19:30,Gearbox,Water leakage in cooling system,V. Joshi,1.6,Open,Temporary fix applied,Night,Coating-Line-1,Coating-Line-1
+N16-007,2025-05-07,18:45,Conveyor-Drive,Chain elongation on drive chain,M. Singh,2.9,Closed,,Night,Coating-Line-1,Coating-Line-1
+N16-008,2025-05-23,19:15,Pump-1,Drive belt worn — replacement needed,P. Gupta,1.5,Closed,Resolved by operator adjustment,Night,Coating-Line-1,Coating-Line-1
+N16-009,2025-05-19,21:45,Gearbox,Hydraulic leak in main cylinder,R. Sharma,4.5,Closed,Repaired and tested OK,Night,Coating-Line-1,Coating-Line-1
+N16-010,2025-05-03,20:15,Motor-A,Gear coupling worn — noise detected,R. Sharma,5.2,Closed,Escalated to OEM,Night,Coating-Line-1,Coating-Line-1
+N16-011,2025-05-22,19:00,Gearbox,Encoder signal lost on servo axis,N. Das,2.8,Closed,Repaired and tested OK,Night,Coating-Line-1,Coating-Line-1
+N16-012,2025-05-22,20:45,Conveyor-Drive,Pipe OD out of spec — forming issue,M. Singh,3.1,Open,Escalated to OEM,Night,Coating-Line-1,Coating-Line-1
+D17-001,2025-05-07,09:15,Gearbox,Hydraulic leak in main cylinder,A. Patel,2.2,Open,Root cause: wear and tear,Day,Coating-Line-2,Coating-Line-2
+D17-002,2025-05-08,06:15,Motor-B,Control panel display blank,R. Sharma,3.3,Closed,Repaired and tested OK,Day,Coating-Line-2,Coating-Line-2
+D17-003,2025-05-12,06:00,Motor-A,Motor overheating — bearing failure,P. Gupta,3.6,Closed,Preventive maintenance scheduled,Day,Coating-Line-2,Coating-Line-2
+D17-004,2025-05-16,08:15,Motor-A,Oil contamination in gearbox,D. Mehta,5.5,Closed,Preventive maintenance scheduled,Day,Coating-Line-2,Coating-Line-2
+D17-005,2025-05-12,08:45,Motor-B,Encoder signal lost on servo axis,N. Das,1.4,Closed,Spare part ordered — pending,Day,Coating-Line-2,Coating-Line-2
+D17-006,2025-05-16,09:15,Cylinder-Main,Encoder signal lost on servo axis,A. Patel,3.2,Closed,Temporary fix applied,Day,Coating-Line-2,Coating-Line-2
+D17-007,2025-05-30,14:45,Pump-2,Electrical trip — overload relay,V. Joshi,3.0,Closed,Spare part ordered — pending,Day,Coating-Line-2,Coating-Line-2
+D17-008,2025-05-02,07:45,Pump-1,Conveyor belt slip / misalignment,B. Reddy,1.1,Closed,Preventive maintenance scheduled,Day,Coating-Line-2,Coating-Line-2
+D17-009,2025-05-11,09:45,Cylinder-Main,Vibration high on spindle motor,V. Joshi,0.9,Open,Repaired and tested OK,Day,Coating-Line-2,Coating-Line-2
+D17-010,2025-05-04,10:30,Conveyor-Drive,Pipe OD out of spec — forming issue,P. Gupta,1.2,Open,Repaired and tested OK,Day,Coating-Line-2,Coating-Line-2
+D17-011,2025-05-31,08:15,Conveyor-Drive,Control panel display blank,V. Joshi,7.7,Closed,Spare part ordered — pending,Day,Coating-Line-2,Coating-Line-2
+D17-012,2025-05-20,11:15,Motor-B,Emergency stop triggered — unknown cause,D. Mehta,7.7,Closed,Resolved by operator adjustment,Day,Coating-Line-2,Coating-Line-2
+D17-013,2025-05-09,13:45,Pump-1,PLC fault code F-204 — sensor error,M. Singh,5.7,Closed,Temporary fix applied,Day,Coating-Line-2,Coating-Line-2
+D17-014,2025-05-28,12:45,PLC-Panel,Coolant pump not starting,N. Das,3.3,Closed,Repaired and tested OK,Day,Coating-Line-2,Coating-Line-2
+D17-015,2025-05-04,08:45,PLC-Panel,PLC fault code F-204 — sensor error,D. Mehta,3.8,Closed,Escalated to OEM,Day,Coating-Line-2,Coating-Line-2
+N17-001,2025-05-31,23:15,Conveyor-Drive,Encoder signal lost on servo axis,B. Reddy,5.7,Closed,Resolved by operator adjustment,Night,Coating-Line-2,Coating-Line-2
+N17-002,2025-05-10,23:15,PLC-Panel,Control panel display blank,D. Mehta,1.6,Open,Repaired and tested OK,Night,Coating-Line-2,Coating-Line-2
+N17-003,2025-05-31,23:15,PLC-Panel,Drive belt worn — replacement needed,M. Singh,1.1,Closed,Root cause: wear and tear,Night,Coating-Line-2,Coating-Line-2
+N17-004,2025-05-21,20:00,Pump-2,Air compressor pressure low,D. Mehta,3.5,Closed,,Night,Coating-Line-2,Coating-Line-2
+N17-005,2025-05-17,22:45,Motor-B,Drive belt worn — replacement needed,V. Joshi,2.9,Open,Repaired and tested OK,Night,Coating-Line-2,Coating-Line-2
+N17-006,2025-05-28,21:45,Motor-A,Air compressor pressure low,B. Reddy,0.5,Closed,Preventive maintenance scheduled,Night,Coating-Line-2,Coating-Line-2
+N17-007,2025-05-03,22:15,PLC-Panel,Limit switch failure — door interlock,S. Kumar,6.7,Open,,Night,Coating-Line-2,Coating-Line-2
+N17-008,2025-05-21,22:45,Conveyor-Drive,Electrical trip — overload relay,V. Joshi,1.4,Open,Root cause: wear and tear,Night,Coating-Line-2,Coating-Line-2
+N17-009,2025-05-31,20:30,Cylinder-Main,Air compressor pressure low,B. Reddy,3.3,Closed,Temporary fix applied,Night,Coating-Line-2,Coating-Line-2
+N17-010,2025-05-16,19:45,Motor-B,Vibration high on spindle motor,N. Das,2.0,Closed,Resolved by operator adjustment,Night,Coating-Line-2,Coating-Line-2
+N17-011,2025-05-25,21:15,Conveyor-Drive,PLC fault code F-204 — sensor error,D. Mehta,0.8,Closed,Spare part ordered — pending,Night,Coating-Line-2,Coating-Line-2
+N17-012,2025-05-07,21:45,Pump-1,Drive belt worn — replacement needed,R. Sharma,4.5,Closed,Resolved by operator adjustment,Night,Coating-Line-2,Coating-Line-2
+D18-001,2025-05-05,13:15,Pump-1,Torch height error — cutting machine,M. Singh,1.3,Closed,Escalated to OEM,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-002,2025-05-15,12:45,Pump-2,Vibration high on spindle motor,D. Mehta,7.7,Open,,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-003,2025-05-06,08:15,Gearbox,Lubrication system fault — low level,B. Reddy,2.7,Closed,Escalated to OEM,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-004,2025-05-09,14:15,Pump-2,Weld seam out of tolerance,N. Das,5.9,Closed,Temporary fix applied,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-005,2025-05-09,08:30,Motor-B,Coating thickness alarm,S. Kumar,4.7,Closed,Resolved by operator adjustment,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-006,2025-05-10,14:30,Gearbox,Hydraulic leak in main cylinder,B. Reddy,1.3,Closed,Repaired and tested OK,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-007,2025-05-10,06:15,Cylinder-Main,Coating thickness alarm,M. Singh,7.9,Closed,Temporary fix applied,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-008,2025-05-05,06:30,Pump-2,Coating thickness alarm,B. Reddy,0.7,Open,Spare part ordered — pending,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-009,2025-05-12,14:15,Gearbox,Strip break at forming section,B. Reddy,6.4,Open,Preventive maintenance scheduled,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-010,2025-05-09,06:45,Gearbox,Pipe OD out of spec — forming issue,S. Kumar,7.7,Closed,Preventive maintenance scheduled,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-011,2025-05-25,13:15,Conveyor-Drive,Coating thickness alarm,N. Das,4.6,Closed,Root cause: wear and tear,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-012,2025-05-22,13:15,Motor-B,Coolant pump not starting,M. Singh,6.0,Closed,Repaired and tested OK,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-013,2025-05-18,10:30,Pump-1,Coolant pump not starting,N. Das,6.8,Closed,,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-014,2025-05-09,08:00,Pump-1,Limit switch failure — door interlock,N. Das,0.9,Open,Preventive maintenance scheduled,Day,Bevel-Machine-1,Bevel-Machine-1
+D18-015,2025-05-16,14:30,Motor-B,Electrical trip — overload relay,S. Kumar,4.4,Open,Spare part ordered — pending,Day,Bevel-Machine-1,Bevel-Machine-1
+N18-001,2025-05-06,22:15,Gearbox,Air compressor pressure low,B. Reddy,3.5,Closed,Root cause: wear and tear,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-002,2025-05-10,20:30,Conveyor-Drive,Oil contamination in gearbox,A. Patel,7.6,Closed,,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-003,2025-05-14,23:00,Motor-B,Gear coupling worn — noise detected,S. Kumar,3.8,Open,Root cause: wear and tear,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-004,2025-05-30,23:30,Gearbox,PLC fault code F-204 — sensor error,D. Mehta,2.4,Closed,Repaired and tested OK,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-005,2025-05-02,22:30,PLC-Panel,Drive belt worn — replacement needed,R. Sharma,2.7,Closed,Escalated to OEM,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-006,2025-05-15,18:00,Pump-1,Coating thickness alarm,B. Reddy,4.5,Closed,Root cause: wear and tear,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-007,2025-05-10,23:15,Gearbox,PLC fault code F-204 — sensor error,A. Patel,4.5,Closed,Resolved by operator adjustment,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-008,2025-05-11,18:15,Motor-A,Hydraulic valve stuck open,S. Kumar,0.8,Closed,Temporary fix applied,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-009,2025-05-06,20:00,Pump-2,Vibration high on spindle motor,D. Mehta,3.4,Closed,Resolved by operator adjustment,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-010,2025-05-21,18:45,Motor-B,Air compressor pressure low,R. Sharma,5.3,Closed,Repaired and tested OK,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-011,2025-05-09,18:30,Motor-B,Oil contamination in gearbox,K. Yadav,5.0,Closed,,Night,Bevel-Machine-1,Bevel-Machine-1
+N18-012,2025-05-19,21:00,PLC-Panel,Coolant pump not starting,B. Reddy,2.1,Closed,Preventive maintenance scheduled,Night,Bevel-Machine-1,Bevel-Machine-1
+D19-001,2025-05-11,08:30,Conveyor-Drive,Hydraulic leak in main cylinder,B. Reddy,7.1,Closed,Repaired and tested OK,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-002,2025-05-31,12:00,Cylinder-Main,Weld seam out of tolerance,S. Kumar,2.1,Open,Temporary fix applied,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-003,2025-05-26,08:15,Cylinder-Main,Weld seam out of tolerance,P. Gupta,1.9,Open,Repaired and tested OK,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-004,2025-05-04,14:45,Motor-B,Oil contamination in gearbox,P. Gupta,2.4,Closed,,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-005,2025-05-21,11:15,Pump-2,PLC fault code F-204 — sensor error,K. Yadav,5.1,Open,Escalated to OEM,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-006,2025-05-16,13:30,Cylinder-Main,Electrical trip — overload relay,N. Das,1.6,Closed,Escalated to OEM,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-007,2025-05-18,08:00,Conveyor-Drive,Strip break at forming section,A. Patel,5.8,Closed,Preventive maintenance scheduled,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-008,2025-05-05,11:15,Conveyor-Drive,Drive belt worn — replacement needed,V. Joshi,3.8,Open,,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-009,2025-05-14,07:15,Motor-B,Vibration high on spindle motor,M. Singh,7.2,Closed,Spare part ordered — pending,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-010,2025-05-08,07:00,Motor-A,Water leakage in cooling system,N. Das,3.5,Closed,Repaired and tested OK,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-011,2025-05-14,10:45,Pump-1,Control panel display blank,D. Mehta,2.2,Open,Preventive maintenance scheduled,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-012,2025-05-27,13:00,Gearbox,Control panel display blank,B. Reddy,0.6,Closed,Temporary fix applied,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-013,2025-05-07,14:15,PLC-Panel,Coolant pump not starting,M. Singh,4.7,Closed,Temporary fix applied,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-014,2025-05-08,13:30,Motor-A,Strip break at forming section,V. Joshi,2.2,Closed,Root cause: wear and tear,Day,Bevel-Machine-2,Bevel-Machine-2
+D19-015,2025-05-30,09:30,Gearbox,Drive belt worn — replacement needed,V. Joshi,7.1,Closed,Escalated to OEM,Day,Bevel-Machine-2,Bevel-Machine-2
+N19-001,2025-05-28,23:30,Cylinder-Main,Water leakage in cooling system,B. Reddy,4.8,Closed,Resolved by operator adjustment,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-002,2025-05-20,22:00,Cylinder-Main,Emergency stop triggered — unknown cause,A. Patel,4.4,Closed,Escalated to OEM,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-003,2025-05-16,21:00,Pump-1,Hydraulic valve stuck open,M. Singh,2.2,Closed,Preventive maintenance scheduled,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-004,2025-05-25,19:15,Pump-1,Control panel display blank,N. Das,5.9,Closed,Root cause: wear and tear,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-005,2025-05-18,20:00,PLC-Panel,Gear coupling worn — noise detected,V. Joshi,4.1,Closed,Resolved by operator adjustment,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-006,2025-05-31,19:00,Pump-1,Water leakage in cooling system,N. Das,1.7,Closed,Repaired and tested OK,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-007,2025-05-03,22:15,Motor-A,Coolant pump not starting,K. Yadav,7.4,Closed,Resolved by operator adjustment,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-008,2025-05-12,22:00,Cylinder-Main,Conveyor belt slip / misalignment,A. Patel,3.9,Open,,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-009,2025-05-26,19:45,Pump-1,Water leakage in cooling system,M. Singh,5.2,Closed,Temporary fix applied,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-010,2025-05-08,23:30,PLC-Panel,Lubrication system fault — low level,N. Das,1.0,Closed,Temporary fix applied,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-011,2025-05-28,18:15,Gearbox,Pneumatic pressure drop in actuator,N. Das,1.2,Closed,Repaired and tested OK,Night,Bevel-Machine-2,Bevel-Machine-2
+N19-012,2025-05-03,22:00,Motor-B,Drive belt worn — replacement needed,M. Singh,7.3,Closed,Repaired and tested OK,Night,Bevel-Machine-2,Bevel-Machine-2
+D20-001,2025-05-03,12:45,Conveyor-Drive,Motor overheating — bearing failure,B. Reddy,3.7,Open,,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-002,2025-05-06,12:30,Motor-B,Pipe OD out of spec — forming issue,M. Singh,2.4,Open,Spare part ordered — pending,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-003,2025-05-22,14:45,Cylinder-Main,Weld seam out of tolerance,R. Sharma,5.8,Open,Spare part ordered — pending,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-004,2025-05-15,06:45,Pump-2,Electrical trip — overload relay,S. Kumar,3.6,Closed,Resolved by operator adjustment,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-005,2025-05-11,10:30,Gearbox,Water leakage in cooling system,S. Kumar,5.1,Open,Resolved by operator adjustment,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-006,2025-05-07,09:45,PLC-Panel,Coolant pump not starting,S. Kumar,4.7,Closed,Preventive maintenance scheduled,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-007,2025-05-13,11:45,Pump-1,Gear coupling worn — noise detected,P. Gupta,6.1,Closed,Temporary fix applied,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-008,2025-05-28,09:45,Conveyor-Drive,Air compressor pressure low,N. Das,5.7,Closed,Temporary fix applied,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-009,2025-05-19,06:00,Pump-1,Drive belt worn — replacement needed,N. Das,3.8,Closed,Root cause: wear and tear,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-010,2025-05-20,07:00,Gearbox,Emergency stop triggered — unknown cause,N. Das,5.4,Closed,Repaired and tested OK,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-011,2025-05-07,08:45,PLC-Panel,Hydraulic leak in main cylinder,A. Patel,6.9,Open,Preventive maintenance scheduled,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-012,2025-05-25,06:15,Pump-1,Gear coupling worn — noise detected,R. Sharma,3.2,Closed,Temporary fix applied,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-013,2025-05-29,10:45,Conveyor-Drive,Gear coupling worn — noise detected,D. Mehta,3.5,Closed,Repaired and tested OK,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-014,2025-05-08,07:00,Cylinder-Main,Torch height error — cutting machine,B. Reddy,7.4,Closed,Preventive maintenance scheduled,Day,Cut-Off-Saw,Cut-Off-Saw
+D20-015,2025-05-24,09:45,Gearbox,Water leakage in cooling system,R. Sharma,2.5,Closed,Spare part ordered — pending,Day,Cut-Off-Saw,Cut-Off-Saw
+N20-001,2025-05-14,18:30,Conveyor-Drive,PLC fault code F-204 — sensor error,B. Reddy,7.7,Open,Preventive maintenance scheduled,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-002,2025-05-09,21:45,PLC-Panel,Coating thickness alarm,A. Patel,6.2,Open,,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-003,2025-05-10,21:00,PLC-Panel,PLC fault code F-204 — sensor error,K. Yadav,1.0,Closed,Root cause: wear and tear,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-004,2025-05-10,23:15,Conveyor-Drive,Pipe OD out of spec — forming issue,S. Kumar,4.4,Closed,Preventive maintenance scheduled,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-005,2025-05-24,20:00,Gearbox,Gear coupling worn — noise detected,S. Kumar,1.1,Open,,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-006,2025-05-21,20:15,Cylinder-Main,Coolant pump not starting,A. Patel,4.2,Closed,Root cause: wear and tear,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-007,2025-05-04,20:15,Pump-2,Weld seam out of tolerance,A. Patel,6.8,Closed,Spare part ordered — pending,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-008,2025-05-28,18:45,Motor-A,Coating thickness alarm,B. Reddy,7.7,Open,Escalated to OEM,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-009,2025-05-12,20:45,Cylinder-Main,Drive belt worn — replacement needed,M. Singh,7.9,Open,Preventive maintenance scheduled,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-010,2025-05-19,19:15,Motor-A,Encoder signal lost on servo axis,D. Mehta,4.1,Closed,Escalated to OEM,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-011,2025-05-19,23:15,PLC-Panel,PLC fault code F-204 — sensor error,B. Reddy,4.0,Closed,Repaired and tested OK,Night,Cut-Off-Saw,Cut-Off-Saw
+N20-012,2025-05-10,19:45,Motor-B,Limit switch failure — door interlock,S. Kumar,5.1,Closed,Preventive maintenance scheduled,Night,Cut-Off-Saw,Cut-Off-Saw
+D21-001,2025-05-24,10:45,Conveyor-Drive,Control panel display blank,M. Singh,4.2,Closed,Escalated to OEM,Day,Flying-Saw,Flying-Saw
+D21-002,2025-05-20,12:30,PLC-Panel,Coolant pump not starting,N. Das,1.5,Closed,Root cause: wear and tear,Day,Flying-Saw,Flying-Saw
+D21-003,2025-05-05,07:30,Pump-2,Air compressor pressure low,D. Mehta,6.9,Closed,Temporary fix applied,Day,Flying-Saw,Flying-Saw
+D21-004,2025-05-16,06:15,Gearbox,Drive belt worn — replacement needed,M. Singh,8.0,Open,Escalated to OEM,Day,Flying-Saw,Flying-Saw
+D21-005,2025-05-06,13:30,Cylinder-Main,Air compressor pressure low,N. Das,0.9,Closed,Temporary fix applied,Day,Flying-Saw,Flying-Saw
+D21-006,2025-05-30,09:30,PLC-Panel,Chain elongation on drive chain,P. Gupta,3.9,Closed,Escalated to OEM,Day,Flying-Saw,Flying-Saw
+D21-007,2025-05-20,14:30,Conveyor-Drive,Hydraulic leak in main cylinder,D. Mehta,1.4,Open,Root cause: wear and tear,Day,Flying-Saw,Flying-Saw
+D21-008,2025-05-13,14:15,Cylinder-Main,Control panel display blank,S. Kumar,5.5,Closed,,Day,Flying-Saw,Flying-Saw
+D21-009,2025-05-03,07:45,Cylinder-Main,Hydraulic valve stuck open,M. Singh,7.0,Closed,Escalated to OEM,Day,Flying-Saw,Flying-Saw
+D21-010,2025-05-18,12:00,Motor-B,Coolant pump not starting,S. Kumar,2.2,Closed,Preventive maintenance scheduled,Day,Flying-Saw,Flying-Saw
+D21-011,2025-05-09,10:45,Cylinder-Main,Hydraulic valve stuck open,S. Kumar,6.1,Closed,,Day,Flying-Saw,Flying-Saw
+D21-012,2025-05-18,08:15,Motor-A,Pneumatic pressure drop in actuator,A. Patel,5.5,Open,Spare part ordered — pending,Day,Flying-Saw,Flying-Saw
+D21-013,2025-05-25,08:45,Motor-B,PLC fault code F-204 — sensor error,P. Gupta,7.5,Closed,Repaired and tested OK,Day,Flying-Saw,Flying-Saw
+D21-014,2025-05-31,12:00,Motor-B,Vibration high on spindle motor,N. Das,1.7,Closed,Resolved by operator adjustment,Day,Flying-Saw,Flying-Saw
+D21-015,2025-05-22,09:15,Cylinder-Main,Hydraulic valve stuck open,M. Singh,1.5,Open,Repaired and tested OK,Day,Flying-Saw,Flying-Saw
+N21-001,2025-05-30,23:30,Conveyor-Drive,Drive belt worn — replacement needed,V. Joshi,7.8,Closed,Preventive maintenance scheduled,Night,Flying-Saw,Flying-Saw
+N21-002,2025-05-14,21:15,Pump-1,Water leakage in cooling system,N. Das,3.9,Closed,Resolved by operator adjustment,Night,Flying-Saw,Flying-Saw
+N21-003,2025-05-15,23:30,Conveyor-Drive,Drive belt worn — replacement needed,B. Reddy,2.2,Closed,Preventive maintenance scheduled,Night,Flying-Saw,Flying-Saw
+N21-004,2025-05-20,21:30,Pump-1,Oil contamination in gearbox,R. Sharma,0.5,Open,Temporary fix applied,Night,Flying-Saw,Flying-Saw
+N21-005,2025-05-20,20:45,Motor-A,Electrical trip — overload relay,V. Joshi,7.6,Closed,Repaired and tested OK,Night,Flying-Saw,Flying-Saw
+N21-006,2025-05-07,21:30,Pump-2,Hydraulic leak in main cylinder,B. Reddy,3.3,Closed,Resolved by operator adjustment,Night,Flying-Saw,Flying-Saw
+N21-007,2025-05-19,19:15,Gearbox,Emergency stop triggered — unknown cause,A. Patel,2.5,Closed,Root cause: wear and tear,Night,Flying-Saw,Flying-Saw
+N21-008,2025-05-15,22:30,Cylinder-Main,Chain elongation on drive chain,B. Reddy,6.6,Closed,Spare part ordered — pending,Night,Flying-Saw,Flying-Saw
+N21-009,2025-05-26,19:30,Motor-B,Chain elongation on drive chain,V. Joshi,5.1,Closed,,Night,Flying-Saw,Flying-Saw
+N21-010,2025-05-25,20:00,Pump-1,Motor overheating — bearing failure,B. Reddy,0.7,Open,Preventive maintenance scheduled,Night,Flying-Saw,Flying-Saw
+N21-011,2025-05-23,19:45,Motor-A,Strip break at forming section,P. Gupta,1.6,Closed,Escalated to OEM,Night,Flying-Saw,Flying-Saw
+N21-012,2025-05-18,20:45,Conveyor-Drive,Hydraulic valve stuck open,R. Sharma,3.0,Open,Temporary fix applied,Night,Flying-Saw,Flying-Saw
+D22-001,2025-05-30,10:45,Motor-B,Air compressor pressure low,V. Joshi,1.9,Open,Preventive maintenance scheduled,Day,Strip-Feed,Strip-Feed
+D22-002,2025-05-05,12:00,Motor-B,Coating thickness alarm,A. Patel,3.4,Open,Root cause: wear and tear,Day,Strip-Feed,Strip-Feed
+D22-003,2025-05-08,06:15,PLC-Panel,Torch height error — cutting machine,P. Gupta,4.4,Open,,Day,Strip-Feed,Strip-Feed
+D22-004,2025-05-19,10:30,Pump-1,Chain elongation on drive chain,R. Sharma,6.1,Closed,Spare part ordered — pending,Day,Strip-Feed,Strip-Feed
+D22-005,2025-05-23,13:30,Pump-2,Control panel display blank,R. Sharma,7.0,Closed,Spare part ordered — pending,Day,Strip-Feed,Strip-Feed
+D22-006,2025-05-24,12:30,Motor-A,Coolant pump not starting,K. Yadav,4.9,Closed,Root cause: wear and tear,Day,Strip-Feed,Strip-Feed
+D22-007,2025-05-31,06:45,Pump-1,Control panel display blank,P. Gupta,2.4,Closed,Escalated to OEM,Day,Strip-Feed,Strip-Feed
+D22-008,2025-05-02,06:00,Conveyor-Drive,Chain elongation on drive chain,M. Singh,5.8,Open,Temporary fix applied,Day,Strip-Feed,Strip-Feed
+D22-009,2025-05-16,09:30,Conveyor-Drive,Hydraulic valve stuck open,A. Patel,0.7,Closed,Temporary fix applied,Day,Strip-Feed,Strip-Feed
+D22-010,2025-05-23,06:45,PLC-Panel,Air compressor pressure low,K. Yadav,4.6,Closed,Temporary fix applied,Day,Strip-Feed,Strip-Feed
+D22-011,2025-05-14,11:30,PLC-Panel,Vibration high on spindle motor,N. Das,7.4,Closed,Spare part ordered — pending,Day,Strip-Feed,Strip-Feed
+D22-012,2025-05-15,08:45,Cylinder-Main,Vibration high on spindle motor,B. Reddy,3.3,Closed,Resolved by operator adjustment,Day,Strip-Feed,Strip-Feed
+D22-013,2025-05-08,08:00,Conveyor-Drive,Coating thickness alarm,N. Das,2.3,Closed,Resolved by operator adjustment,Day,Strip-Feed,Strip-Feed
+D22-014,2025-05-25,14:45,Pump-1,Lubrication system fault — low level,K. Yadav,2.9,Closed,Spare part ordered — pending,Day,Strip-Feed,Strip-Feed
+D22-015,2025-05-28,14:00,Motor-A,Pneumatic pressure drop in actuator,M. Singh,7.1,Closed,,Day,Strip-Feed,Strip-Feed
+N22-001,2025-05-25,18:00,Gearbox,Gear coupling worn — noise detected,V. Joshi,4.4,Closed,Preventive maintenance scheduled,Night,Strip-Feed,Strip-Feed
+N22-002,2025-05-30,20:15,Motor-B,Hydraulic leak in main cylinder,A. Patel,5.4,Open,Spare part ordered — pending,Night,Strip-Feed,Strip-Feed
+N22-003,2025-05-17,23:00,Conveyor-Drive,Air compressor pressure low,D. Mehta,6.7,Open,Repaired and tested OK,Night,Strip-Feed,Strip-Feed
+N22-004,2025-05-05,22:30,Motor-A,Torch height error — cutting machine,P. Gupta,6.8,Closed,Root cause: wear and tear,Night,Strip-Feed,Strip-Feed
+N22-005,2025-05-15,18:00,Pump-2,Air compressor pressure low,D. Mehta,1.9,Closed,Root cause: wear and tear,Night,Strip-Feed,Strip-Feed
+N22-006,2025-05-13,23:15,Gearbox,Torch height error — cutting machine,P. Gupta,6.2,Closed,,Night,Strip-Feed,Strip-Feed
+N22-007,2025-05-09,23:45,Motor-B,Coolant pump not starting,M. Singh,4.6,Closed,Temporary fix applied,Night,Strip-Feed,Strip-Feed
+N22-008,2025-05-14,22:45,Conveyor-Drive,Limit switch failure — door interlock,B. Reddy,7.9,Closed,Escalated to OEM,Night,Strip-Feed,Strip-Feed
+N22-009,2025-05-18,23:45,Conveyor-Drive,Lubrication system fault — low level,A. Patel,4.7,Closed,Preventive maintenance scheduled,Night,Strip-Feed,Strip-Feed
+N22-010,2025-05-20,21:45,Gearbox,Hydraulic leak in main cylinder,R. Sharma,7.9,Closed,Temporary fix applied,Night,Strip-Feed,Strip-Feed
+N22-011,2025-05-03,20:00,Cylinder-Main,Strip break at forming section,A. Patel,6.9,Closed,Preventive maintenance scheduled,Night,Strip-Feed,Strip-Feed
+N22-012,2025-05-02,22:15,Motor-B,Motor overheating — bearing failure,V. Joshi,3.2,Closed,Escalated to OEM,Night,Strip-Feed,Strip-Feed
+D23-001,2025-05-03,09:15,Cylinder-Main,Oil contamination in gearbox,P. Gupta,4.8,Closed,Root cause: wear and tear,Day,Entry-Coiler,Entry-Coiler
+D23-002,2025-05-08,07:30,PLC-Panel,Coolant pump not starting,V. Joshi,6.7,Closed,Spare part ordered — pending,Day,Entry-Coiler,Entry-Coiler
+D23-003,2025-05-12,10:00,Gearbox,Conveyor belt slip / misalignment,R. Sharma,7.4,Closed,Resolved by operator adjustment,Day,Entry-Coiler,Entry-Coiler
+D23-004,2025-05-18,07:15,Motor-A,Chain elongation on drive chain,D. Mehta,0.9,Closed,Escalated to OEM,Day,Entry-Coiler,Entry-Coiler
+D23-005,2025-05-14,08:30,Pump-2,Pneumatic pressure drop in actuator,R. Sharma,5.6,Open,,Day,Entry-Coiler,Entry-Coiler
+D23-006,2025-05-07,14:00,Pump-2,Pipe OD out of spec — forming issue,K. Yadav,6.4,Closed,Escalated to OEM,Day,Entry-Coiler,Entry-Coiler
+D23-007,2025-05-29,13:00,Gearbox,Vibration high on spindle motor,P. Gupta,3.5,Closed,Temporary fix applied,Day,Entry-Coiler,Entry-Coiler
+D23-008,2025-05-07,08:45,Pump-2,Drive belt worn — replacement needed,D. Mehta,5.4,Closed,Root cause: wear and tear,Day,Entry-Coiler,Entry-Coiler
+D23-009,2025-05-24,07:30,Gearbox,Limit switch failure — door interlock,N. Das,1.2,Closed,Resolved by operator adjustment,Day,Entry-Coiler,Entry-Coiler
+D23-010,2025-05-20,11:15,Conveyor-Drive,Control panel display blank,N. Das,5.4,Open,Temporary fix applied,Day,Entry-Coiler,Entry-Coiler
+D23-011,2025-05-20,13:15,PLC-Panel,Motor overheating — bearing failure,A. Patel,2.0,Closed,Spare part ordered — pending,Day,Entry-Coiler,Entry-Coiler
+D23-012,2025-05-28,06:15,Pump-1,Oil contamination in gearbox,R. Sharma,3.1,Open,Preventive maintenance scheduled,Day,Entry-Coiler,Entry-Coiler
+D23-013,2025-05-17,13:00,Conveyor-Drive,Weld seam out of tolerance,B. Reddy,2.1,Closed,Preventive maintenance scheduled,Day,Entry-Coiler,Entry-Coiler
+D23-014,2025-05-14,13:15,Motor-A,Emergency stop triggered — unknown cause,N. Das,7.3,Closed,Preventive maintenance scheduled,Day,Entry-Coiler,Entry-Coiler
+D23-015,2025-05-26,06:30,Pump-2,Electrical trip — overload relay,N. Das,2.5,Closed,Repaired and tested OK,Day,Entry-Coiler,Entry-Coiler
+N23-001,2025-05-29,21:30,Conveyor-Drive,PLC fault code F-204 — sensor error,R. Sharma,2.7,Open,Resolved by operator adjustment,Night,Entry-Coiler,Entry-Coiler
+N23-002,2025-05-24,21:00,Conveyor-Drive,Drive belt worn — replacement needed,N. Das,4.5,Closed,,Night,Entry-Coiler,Entry-Coiler
+N23-003,2025-05-14,23:00,Motor-A,Strip break at forming section,B. Reddy,2.8,Closed,Temporary fix applied,Night,Entry-Coiler,Entry-Coiler
+N23-004,2025-05-31,20:30,Conveyor-Drive,Chain elongation on drive chain,K. Yadav,2.3,Open,Preventive maintenance scheduled,Night,Entry-Coiler,Entry-Coiler
+N23-005,2025-05-06,18:30,Gearbox,Hydraulic leak in main cylinder,B. Reddy,7.6,Closed,Escalated to OEM,Night,Entry-Coiler,Entry-Coiler
+N23-006,2025-05-03,21:15,Motor-B,Torch height error — cutting machine,D. Mehta,4.4,Closed,Root cause: wear and tear,Night,Entry-Coiler,Entry-Coiler
+N23-007,2025-05-18,19:15,Gearbox,Oil contamination in gearbox,N. Das,3.0,Closed,Root cause: wear and tear,Night,Entry-Coiler,Entry-Coiler
+N23-008,2025-05-11,19:15,Pump-1,Oil contamination in gearbox,B. Reddy,7.3,Closed,Temporary fix applied,Night,Entry-Coiler,Entry-Coiler
+N23-009,2025-05-11,22:15,Conveyor-Drive,Conveyor belt slip / misalignment,B. Reddy,4.5,Closed,Temporary fix applied,Night,Entry-Coiler,Entry-Coiler
+N23-010,2025-05-21,19:00,Conveyor-Drive,Pipe OD out of spec — forming issue,D. Mehta,2.8,Closed,Preventive maintenance scheduled,Night,Entry-Coiler,Entry-Coiler
+N23-011,2025-05-27,19:00,Pump-1,Coolant pump not starting,R. Sharma,6.2,Closed,Preventive maintenance scheduled,Night,Entry-Coiler,Entry-Coiler
+N23-012,2025-05-12,22:15,Pump-2,Strip break at forming section,R. Sharma,3.2,Closed,,Night,Entry-Coiler,Entry-Coiler
+D24-001,2025-05-27,14:45,Conveyor-Drive,Coolant pump not starting,D. Mehta,4.2,Closed,Root cause: wear and tear,Day,Exit-Table,Exit-Table
+D24-002,2025-05-24,06:45,Motor-A,Vibration high on spindle motor,D. Mehta,2.2,Closed,Root cause: wear and tear,Day,Exit-Table,Exit-Table
+D24-003,2025-05-07,09:00,Pump-1,Hydraulic valve stuck open,N. Das,4.2,Closed,,Day,Exit-Table,Exit-Table
+D24-004,2025-05-03,09:45,Gearbox,Coating thickness alarm,R. Sharma,5.1,Open,Escalated to OEM,Day,Exit-Table,Exit-Table
+D24-005,2025-05-19,14:00,Motor-B,Hydraulic valve stuck open,V. Joshi,6.7,Closed,Root cause: wear and tear,Day,Exit-Table,Exit-Table
+D24-006,2025-05-15,14:45,Motor-A,Air compressor pressure low,D. Mehta,4.4,Closed,Repaired and tested OK,Day,Exit-Table,Exit-Table
+D24-007,2025-05-25,10:45,Gearbox,Oil contamination in gearbox,K. Yadav,4.0,Closed,Repaired and tested OK,Day,Exit-Table,Exit-Table
+D24-008,2025-05-09,14:15,PLC-Panel,Chain elongation on drive chain,V. Joshi,1.2,Closed,Temporary fix applied,Day,Exit-Table,Exit-Table
+D24-009,2025-05-07,14:15,Gearbox,Pipe OD out of spec — forming issue,S. Kumar,3.9,Closed,Root cause: wear and tear,Day,Exit-Table,Exit-Table
+D24-010,2025-05-03,13:00,Cylinder-Main,Limit switch failure — door interlock,M. Singh,5.9,Closed,Spare part ordered — pending,Day,Exit-Table,Exit-Table
+D24-011,2025-05-09,13:30,Motor-B,Encoder signal lost on servo axis,D. Mehta,6.0,Open,Temporary fix applied,Day,Exit-Table,Exit-Table
+D24-012,2025-05-19,14:45,Motor-A,Coating thickness alarm,M. Singh,7.3,Closed,Temporary fix applied,Day,Exit-Table,Exit-Table
+D24-013,2025-05-26,08:15,Motor-A,Pipe OD out of spec — forming issue,K. Yadav,2.8,Open,,Day,Exit-Table,Exit-Table
+D24-014,2025-05-22,08:00,Pump-1,Weld seam out of tolerance,R. Sharma,5.2,Closed,,Day,Exit-Table,Exit-Table
+D24-015,2025-05-16,13:00,PLC-Panel,Strip break at forming section,A. Patel,4.9,Closed,Resolved by operator adjustment,Day,Exit-Table,Exit-Table
+N24-001,2025-05-17,18:00,Pump-2,Air compressor pressure low,K. Yadav,5.1,Closed,Root cause: wear and tear,Night,Exit-Table,Exit-Table
+N24-002,2025-05-30,19:15,Motor-A,Chain elongation on drive chain,S. Kumar,0.8,Open,Preventive maintenance scheduled,Night,Exit-Table,Exit-Table
+N24-003,2025-05-21,18:00,Motor-B,Pipe OD out of spec — forming issue,M. Singh,1.7,Closed,Temporary fix applied,Night,Exit-Table,Exit-Table
+N24-004,2025-05-17,23:30,Motor-A,Conveyor belt slip / misalignment,K. Yadav,2.9,Open,Spare part ordered — pending,Night,Exit-Table,Exit-Table
+N24-005,2025-05-07,21:00,Cylinder-Main,Drive belt worn — replacement needed,M. Singh,1.4,Open,Escalated to OEM,Night,Exit-Table,Exit-Table
+N24-006,2025-05-15,21:15,Pump-2,Lubrication system fault — low level,R. Sharma,1.3,Closed,Spare part ordered — pending,Night,Exit-Table,Exit-Table
+N24-007,2025-05-16,23:30,Gearbox,Lubrication system fault — low level,S. Kumar,2.4,Closed,Escalated to OEM,Night,Exit-Table,Exit-Table
+N24-008,2025-05-02,19:45,PLC-Panel,Drive belt worn — replacement needed,M. Singh,7.1,Closed,Preventive maintenance scheduled,Night,Exit-Table,Exit-Table
+N24-009,2025-05-25,18:00,Motor-A,Hydraulic valve stuck open,P. Gupta,6.0,Closed,Resolved by operator adjustment,Night,Exit-Table,Exit-Table
+N24-010,2025-05-18,18:30,Conveyor-Drive,Air compressor pressure low,A. Patel,0.6,Closed,Preventive maintenance scheduled,Night,Exit-Table,Exit-Table
+N24-011,2025-05-23,18:30,Cylinder-Main,Encoder signal lost on servo axis,B. Reddy,2.9,Closed,Escalated to OEM,Night,Exit-Table,Exit-Table
+N24-012,2025-05-21,21:00,Pump-1,Weld seam out of tolerance,S. Kumar,6.8,Open,,Night,Exit-Table,Exit-Table
+D25-001,2025-05-02,13:00,Pump-1,Drive belt worn — replacement needed,M. Singh,5.2,Open,Escalated to OEM,Day,Run-Out-Table,Run-Out-Table
+D25-002,2025-05-17,12:00,Cylinder-Main,Water leakage in cooling system,S. Kumar,4.7,Closed,Escalated to OEM,Day,Run-Out-Table,Run-Out-Table
+D25-003,2025-05-06,11:00,Pump-1,Vibration high on spindle motor,R. Sharma,3.0,Closed,Temporary fix applied,Day,Run-Out-Table,Run-Out-Table
+D25-004,2025-05-13,12:15,Motor-B,Coating thickness alarm,K. Yadav,5.8,Closed,Repaired and tested OK,Day,Run-Out-Table,Run-Out-Table
+D25-005,2025-05-23,12:00,PLC-Panel,Strip break at forming section,S. Kumar,3.9,Open,Root cause: wear and tear,Day,Run-Out-Table,Run-Out-Table
+D25-006,2025-05-15,10:15,Motor-B,Control panel display blank,R. Sharma,6.3,Open,,Day,Run-Out-Table,Run-Out-Table
+D25-007,2025-05-15,06:45,Pump-1,Weld seam out of tolerance,S. Kumar,7.4,Closed,Preventive maintenance scheduled,Day,Run-Out-Table,Run-Out-Table
+D25-008,2025-05-07,11:15,Motor-B,Encoder signal lost on servo axis,M. Singh,2.0,Closed,Resolved by operator adjustment,Day,Run-Out-Table,Run-Out-Table
+D25-009,2025-05-09,14:00,Motor-A,Oil contamination in gearbox,R. Sharma,5.7,Closed,Spare part ordered — pending,Day,Run-Out-Table,Run-Out-Table
+D25-010,2025-05-21,13:00,Motor-B,Encoder signal lost on servo axis,K. Yadav,0.7,Open,Root cause: wear and tear,Day,Run-Out-Table,Run-Out-Table
+D25-011,2025-05-21,09:15,Cylinder-Main,Vibration high on spindle motor,B. Reddy,2.9,Closed,Spare part ordered — pending,Day,Run-Out-Table,Run-Out-Table
+D25-012,2025-05-23,08:15,Cylinder-Main,PLC fault code F-204 — sensor error,R. Sharma,7.7,Closed,Spare part ordered — pending,Day,Run-Out-Table,Run-Out-Table
+D25-013,2025-05-25,14:30,Conveyor-Drive,Vibration high on spindle motor,M. Singh,7.6,Open,Root cause: wear and tear,Day,Run-Out-Table,Run-Out-Table
+D25-014,2025-05-26,07:30,Conveyor-Drive,Air compressor pressure low,V. Joshi,0.9,Closed,Repaired and tested OK,Day,Run-Out-Table,Run-Out-Table
+D25-015,2025-05-28,12:00,Motor-B,Pipe OD out of spec — forming issue,D. Mehta,1.8,Closed,,Day,Run-Out-Table,Run-Out-Table
+N25-001,2025-05-12,20:30,Conveyor-Drive,Weld seam out of tolerance,B. Reddy,1.1,Open,,Night,Run-Out-Table,Run-Out-Table
+N25-002,2025-05-13,19:00,PLC-Panel,PLC fault code F-204 — sensor error,V. Joshi,2.8,Closed,,Night,Run-Out-Table,Run-Out-Table
+N25-003,2025-05-16,19:15,Pump-1,Lubrication system fault — low level,K. Yadav,7.3,Closed,Escalated to OEM,Night,Run-Out-Table,Run-Out-Table
+N25-004,2025-05-06,20:45,PLC-Panel,Hydraulic leak in main cylinder,P. Gupta,4.1,Closed,,Night,Run-Out-Table,Run-Out-Table
+N25-005,2025-05-04,19:30,Conveyor-Drive,Lubrication system fault — low level,N. Das,1.5,Closed,Spare part ordered — pending,Night,Run-Out-Table,Run-Out-Table
+N25-006,2025-05-21,22:00,Cylinder-Main,Air compressor pressure low,V. Joshi,3.5,Closed,Root cause: wear and tear,Night,Run-Out-Table,Run-Out-Table
+N25-007,2025-05-14,19:45,Gearbox,Conveyor belt slip / misalignment,S. Kumar,2.1,Closed,Resolved by operator adjustment,Night,Run-Out-Table,Run-Out-Table
+N25-008,2025-05-06,21:30,Pump-2,Coolant pump not starting,P. Gupta,6.0,Closed,,Night,Run-Out-Table,Run-Out-Table
+N25-009,2025-05-28,22:45,Conveyor-Drive,Air compressor pressure low,P. Gupta,6.7,Closed,Resolved by operator adjustment,Night,Run-Out-Table,Run-Out-Table
+N25-010,2025-05-29,22:00,Gearbox,Limit switch failure — door interlock,V. Joshi,5.3,Closed,Root cause: wear and tear,Night,Run-Out-Table,Run-Out-Table
+N25-011,2025-05-05,19:00,Pump-1,Gear coupling worn — noise detected,M. Singh,3.9,Closed,,Night,Run-Out-Table,Run-Out-Table
+N25-012,2025-05-25,19:30,Cylinder-Main,Water leakage in cooling system,K. Yadav,7.4,Open,Escalated to OEM,Night,Run-Out-Table,Run-Out-Table
+D26-001,2025-05-29,06:45,Pump-1,Oil contamination in gearbox,R. Sharma,3.3,Closed,Repaired and tested OK,Day,Compressor-1,Compressor-1
+D26-002,2025-05-31,14:30,Motor-B,Oil contamination in gearbox,R. Sharma,2.3,Closed,Resolved by operator adjustment,Day,Compressor-1,Compressor-1
+D26-003,2025-05-11,11:45,Gearbox,Emergency stop triggered — unknown cause,D. Mehta,4.6,Closed,,Day,Compressor-1,Compressor-1
+D26-004,2025-05-27,09:45,Conveyor-Drive,Pipe OD out of spec — forming issue,M. Singh,2.7,Open,Temporary fix applied,Day,Compressor-1,Compressor-1
+D26-005,2025-05-27,06:00,Motor-A,Pneumatic pressure drop in actuator,V. Joshi,5.4,Open,Temporary fix applied,Day,Compressor-1,Compressor-1
+D26-006,2025-05-29,08:45,PLC-Panel,Electrical trip — overload relay,N. Das,7.5,Closed,,Day,Compressor-1,Compressor-1
+D26-007,2025-05-15,12:45,Gearbox,Control panel display blank,A. Patel,1.9,Closed,,Day,Compressor-1,Compressor-1
+D26-008,2025-05-04,09:30,Gearbox,Air compressor pressure low,N. Das,3.3,Open,,Day,Compressor-1,Compressor-1
+D26-009,2025-05-09,11:00,PLC-Panel,Electrical trip — overload relay,P. Gupta,1.6,Closed,Preventive maintenance scheduled,Day,Compressor-1,Compressor-1
+D26-010,2025-05-17,14:00,Motor-B,Strip break at forming section,V. Joshi,5.2,Closed,Spare part ordered — pending,Day,Compressor-1,Compressor-1
+D26-011,2025-05-10,14:30,Motor-A,Limit switch failure — door interlock,B. Reddy,6.3,Closed,,Day,Compressor-1,Compressor-1
+D26-012,2025-05-13,11:45,Conveyor-Drive,Oil contamination in gearbox,K. Yadav,1.8,Closed,Preventive maintenance scheduled,Day,Compressor-1,Compressor-1
+D26-013,2025-05-08,10:00,PLC-Panel,Water leakage in cooling system,M. Singh,4.8,Closed,Preventive maintenance scheduled,Day,Compressor-1,Compressor-1
+D26-014,2025-05-06,06:30,PLC-Panel,Conveyor belt slip / misalignment,M. Singh,4.3,Open,Preventive maintenance scheduled,Day,Compressor-1,Compressor-1
+D26-015,2025-05-23,08:30,Cylinder-Main,Vibration high on spindle motor,R. Sharma,6.1,Closed,Temporary fix applied,Day,Compressor-1,Compressor-1
+N26-001,2025-05-10,21:30,Pump-1,Vibration high on spindle motor,A. Patel,4.1,Open,Repaired and tested OK,Night,Compressor-1,Compressor-1
+N26-002,2025-05-21,18:15,Pump-1,Drive belt worn — replacement needed,D. Mehta,6.3,Closed,,Night,Compressor-1,Compressor-1
+N26-003,2025-05-08,23:15,Pump-2,Water leakage in cooling system,S. Kumar,0.9,Closed,Spare part ordered — pending,Night,Compressor-1,Compressor-1
+N26-004,2025-05-30,19:45,Gearbox,Drive belt worn — replacement needed,K. Yadav,4.1,Open,Root cause: wear and tear,Night,Compressor-1,Compressor-1
+N26-005,2025-05-19,23:45,PLC-Panel,Vibration high on spindle motor,M. Singh,4.5,Closed,Preventive maintenance scheduled,Night,Compressor-1,Compressor-1
+N26-006,2025-05-02,21:45,Conveyor-Drive,Encoder signal lost on servo axis,R. Sharma,1.2,Closed,Escalated to OEM,Night,Compressor-1,Compressor-1
+N26-007,2025-05-04,21:30,Conveyor-Drive,Vibration high on spindle motor,K. Yadav,6.5,Closed,Resolved by operator adjustment,Night,Compressor-1,Compressor-1
+N26-008,2025-05-17,23:15,Pump-2,Encoder signal lost on servo axis,S. Kumar,5.6,Open,Escalated to OEM,Night,Compressor-1,Compressor-1
+N26-009,2025-05-14,18:00,Motor-B,Hydraulic leak in main cylinder,D. Mehta,1.2,Closed,,Night,Compressor-1,Compressor-1
+N26-010,2025-05-20,19:30,Cylinder-Main,Weld seam out of tolerance,R. Sharma,0.7,Closed,Root cause: wear and tear,Night,Compressor-1,Compressor-1
+N26-011,2025-05-12,23:00,Motor-B,Conveyor belt slip / misalignment,N. Das,1.5,Closed,Temporary fix applied,Night,Compressor-1,Compressor-1
+N26-012,2025-05-03,18:15,Cylinder-Main,Oil contamination in gearbox,V. Joshi,5.5,Closed,,Night,Compressor-1,Compressor-1
+D27-001,2025-05-02,10:45,Conveyor-Drive,Vibration high on spindle motor,M. Singh,6.4,Closed,Repaired and tested OK,Day,Compressor-2,Compressor-2
+D27-002,2025-05-19,12:30,Motor-A,Vibration high on spindle motor,K. Yadav,1.8,Closed,Root cause: wear and tear,Day,Compressor-2,Compressor-2
+D27-003,2025-05-12,12:15,PLC-Panel,PLC fault code F-204 — sensor error,M. Singh,4.6,Closed,Spare part ordered — pending,Day,Compressor-2,Compressor-2
+D27-004,2025-05-02,13:30,Motor-B,Motor overheating — bearing failure,P. Gupta,1.0,Closed,,Day,Compressor-2,Compressor-2
+D27-005,2025-05-31,13:15,Motor-A,Motor overheating — bearing failure,D. Mehta,2.5,Closed,Resolved by operator adjustment,Day,Compressor-2,Compressor-2
+D27-006,2025-05-13,06:45,PLC-Panel,Pipe OD out of spec — forming issue,D. Mehta,6.8,Open,Spare part ordered — pending,Day,Compressor-2,Compressor-2
+D27-007,2025-05-14,09:00,Gearbox,Electrical trip — overload relay,V. Joshi,1.4,Closed,Escalated to OEM,Day,Compressor-2,Compressor-2
+D27-008,2025-05-21,10:45,Motor-A,Chain elongation on drive chain,P. Gupta,3.2,Open,Escalated to OEM,Day,Compressor-2,Compressor-2
+D27-009,2025-05-29,13:30,Pump-2,Coolant pump not starting,B. Reddy,0.8,Closed,Root cause: wear and tear,Day,Compressor-2,Compressor-2
+D27-010,2025-05-22,12:00,Conveyor-Drive,Drive belt worn — replacement needed,P. Gupta,7.1,Closed,Root cause: wear and tear,Day,Compressor-2,Compressor-2
+D27-011,2025-05-27,06:15,Motor-A,Torch height error — cutting machine,N. Das,2.3,Closed,Preventive maintenance scheduled,Day,Compressor-2,Compressor-2
+D27-012,2025-05-16,14:45,Motor-A,Motor overheating — bearing failure,S. Kumar,0.9,Open,Repaired and tested OK,Day,Compressor-2,Compressor-2
+D27-013,2025-05-19,07:15,PLC-Panel,Gear coupling worn — noise detected,B. Reddy,1.6,Closed,Spare part ordered — pending,Day,Compressor-2,Compressor-2
+D27-014,2025-05-30,08:45,Motor-A,Drive belt worn — replacement needed,N. Das,0.8,Closed,Temporary fix applied,Day,Compressor-2,Compressor-2
+D27-015,2025-05-31,08:00,Cylinder-Main,PLC fault code F-204 — sensor error,V. Joshi,5.1,Open,Spare part ordered — pending,Day,Compressor-2,Compressor-2
+N27-001,2025-05-05,18:00,PLC-Panel,Lubrication system fault — low level,N. Das,2.2,Open,Resolved by operator adjustment,Night,Compressor-2,Compressor-2
+N27-002,2025-05-21,23:45,Conveyor-Drive,PLC fault code F-204 — sensor error,N. Das,4.6,Closed,Root cause: wear and tear,Night,Compressor-2,Compressor-2
+N27-003,2025-05-07,18:15,Conveyor-Drive,Conveyor belt slip / misalignment,P. Gupta,2.6,Open,Temporary fix applied,Night,Compressor-2,Compressor-2
+N27-004,2025-05-09,20:15,PLC-Panel,Strip break at forming section,N. Das,0.8,Closed,Resolved by operator adjustment,Night,Compressor-2,Compressor-2
+N27-005,2025-05-07,19:00,PLC-Panel,Conveyor belt slip / misalignment,R. Sharma,0.6,Open,Preventive maintenance scheduled,Night,Compressor-2,Compressor-2
+N27-006,2025-05-18,23:45,Pump-1,Weld seam out of tolerance,M. Singh,5.3,Closed,Resolved by operator adjustment,Night,Compressor-2,Compressor-2
+N27-007,2025-05-24,19:00,Pump-1,Electrical trip — overload relay,V. Joshi,5.1,Closed,Preventive maintenance scheduled,Night,Compressor-2,Compressor-2
+N27-008,2025-05-20,21:00,Pump-2,Weld seam out of tolerance,P. Gupta,7.9,Open,Escalated to OEM,Night,Compressor-2,Compressor-2
+N27-009,2025-05-04,22:15,PLC-Panel,Coating thickness alarm,A. Patel,2.6,Closed,Temporary fix applied,Night,Compressor-2,Compressor-2
+N27-010,2025-05-10,21:45,Pump-1,Coolant pump not starting,R. Sharma,0.9,Closed,Root cause: wear and tear,Night,Compressor-2,Compressor-2
+N27-011,2025-05-18,20:30,PLC-Panel,Motor overheating — bearing failure,P. Gupta,6.1,Open,Temporary fix applied,Night,Compressor-2,Compressor-2
+N27-012,2025-05-26,18:45,Motor-B,Conveyor belt slip / misalignment,A. Patel,5.9,Closed,Escalated to OEM,Night,Compressor-2,Compressor-2
+D28-001,2025-05-18,09:30,Pump-2,Coating thickness alarm,P. Gupta,2.9,Closed,Resolved by operator adjustment,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-002,2025-05-04,09:45,Pump-2,Conveyor belt slip / misalignment,V. Joshi,4.9,Closed,Resolved by operator adjustment,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-003,2025-05-27,09:45,Pump-1,Emergency stop triggered — unknown cause,S. Kumar,1.5,Closed,Escalated to OEM,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-004,2025-05-23,09:30,Pump-1,Motor overheating — bearing failure,N. Das,0.9,Closed,,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-005,2025-05-17,12:15,Conveyor-Drive,Strip break at forming section,K. Yadav,5.0,Open,Temporary fix applied,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-006,2025-05-13,14:15,Motor-B,Pipe OD out of spec — forming issue,B. Reddy,4.2,Open,,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-007,2025-05-05,13:30,Motor-A,Torch height error — cutting machine,D. Mehta,6.0,Closed,Escalated to OEM,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-008,2025-05-18,09:15,Motor-A,Pipe OD out of spec — forming issue,R. Sharma,0.8,Closed,Repaired and tested OK,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-009,2025-05-18,14:45,PLC-Panel,Electrical trip — overload relay,P. Gupta,3.9,Closed,Repaired and tested OK,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-010,2025-05-09,12:15,Pump-1,Control panel display blank,K. Yadav,2.3,Open,Repaired and tested OK,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-011,2025-05-16,10:15,PLC-Panel,Water leakage in cooling system,N. Das,0.7,Closed,Temporary fix applied,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-012,2025-05-04,12:15,Conveyor-Drive,Chain elongation on drive chain,V. Joshi,5.8,Closed,Spare part ordered — pending,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-013,2025-05-19,11:00,Cylinder-Main,Pipe OD out of spec — forming issue,K. Yadav,5.7,Closed,Root cause: wear and tear,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-014,2025-05-06,07:30,Motor-A,Encoder signal lost on servo axis,S. Kumar,7.2,Closed,Escalated to OEM,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D28-015,2025-05-17,06:30,Conveyor-Drive,Coolant pump not starting,B. Reddy,5.8,Closed,Root cause: wear and tear,Day,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-001,2025-05-27,20:15,Motor-B,Chain elongation on drive chain,V. Joshi,6.0,Open,Root cause: wear and tear,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-002,2025-05-07,23:15,Conveyor-Drive,Control panel display blank,K. Yadav,4.3,Closed,Repaired and tested OK,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-003,2025-05-29,20:30,PLC-Panel,Drive belt worn — replacement needed,B. Reddy,4.5,Closed,Preventive maintenance scheduled,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-004,2025-05-17,22:30,Motor-B,Weld seam out of tolerance,V. Joshi,1.2,Closed,Temporary fix applied,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-005,2025-05-22,18:00,Pump-1,Vibration high on spindle motor,P. Gupta,5.7,Closed,Root cause: wear and tear,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-006,2025-05-15,23:00,Cylinder-Main,Pipe OD out of spec — forming issue,B. Reddy,7.5,Closed,Resolved by operator adjustment,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-007,2025-05-17,23:00,Cylinder-Main,Weld seam out of tolerance,P. Gupta,0.7,Open,Escalated to OEM,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-008,2025-05-18,22:30,Conveyor-Drive,Drive belt worn — replacement needed,N. Das,5.5,Closed,,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-009,2025-05-17,20:15,Cylinder-Main,Coolant pump not starting,K. Yadav,2.2,Closed,Preventive maintenance scheduled,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-010,2025-05-07,18:15,Conveyor-Drive,Oil contamination in gearbox,V. Joshi,7.7,Closed,Temporary fix applied,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-011,2025-05-09,22:30,Pump-1,Coolant pump not starting,M. Singh,1.7,Closed,Escalated to OEM,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+N28-012,2025-05-13,19:45,Cylinder-Main,Control panel display blank,M. Singh,2.0,Closed,Escalated to OEM,Night,Hydraulic-Power-Unit,Hydraulic-Power-Unit
+D29-001,2025-05-20,08:30,PLC-Panel,Air compressor pressure low,M. Singh,4.5,Closed,Repaired and tested OK,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-002,2025-05-19,13:15,PLC-Panel,Limit switch failure — door interlock,M. Singh,0.5,Closed,Escalated to OEM,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-003,2025-05-11,10:45,Cylinder-Main,Coating thickness alarm,N. Das,5.5,Open,,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-004,2025-05-21,07:45,Motor-A,Pneumatic pressure drop in actuator,B. Reddy,1.4,Closed,Root cause: wear and tear,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-005,2025-05-17,11:00,Conveyor-Drive,Motor overheating — bearing failure,N. Das,5.3,Closed,Root cause: wear and tear,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-006,2025-05-06,10:15,Motor-A,Conveyor belt slip / misalignment,B. Reddy,6.9,Closed,Spare part ordered — pending,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-007,2025-05-15,12:15,PLC-Panel,Limit switch failure — door interlock,N. Das,5.0,Open,Escalated to OEM,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-008,2025-05-19,08:45,Conveyor-Drive,Emergency stop triggered — unknown cause,S. Kumar,0.6,Closed,Preventive maintenance scheduled,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-009,2025-05-17,14:00,Pump-2,Torch height error — cutting machine,V. Joshi,6.1,Closed,,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-010,2025-05-22,08:45,Gearbox,Pneumatic pressure drop in actuator,N. Das,5.0,Closed,Preventive maintenance scheduled,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-011,2025-05-16,14:30,Motor-B,Water leakage in cooling system,D. Mehta,1.2,Closed,Preventive maintenance scheduled,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-012,2025-05-18,08:45,Pump-1,Weld seam out of tolerance,M. Singh,6.7,Closed,,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-013,2025-05-30,10:30,PLC-Panel,Air compressor pressure low,V. Joshi,2.2,Open,Temporary fix applied,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-014,2025-05-23,10:45,Motor-B,Chain elongation on drive chain,K. Yadav,3.6,Closed,Root cause: wear and tear,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+D29-015,2025-05-31,07:30,PLC-Panel,Conveyor belt slip / misalignment,N. Das,6.1,Closed,Resolved by operator adjustment,Day,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-001,2025-05-04,20:45,Motor-B,Control panel display blank,B. Reddy,6.0,Closed,Preventive maintenance scheduled,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-002,2025-05-26,22:00,Pump-1,Limit switch failure — door interlock,V. Joshi,7.1,Closed,Temporary fix applied,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-003,2025-05-30,20:30,Gearbox,Chain elongation on drive chain,S. Kumar,0.9,Closed,Spare part ordered — pending,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-004,2025-05-15,19:15,Motor-B,Lubrication system fault — low level,M. Singh,4.6,Open,Preventive maintenance scheduled,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-005,2025-05-23,23:30,Motor-B,Air compressor pressure low,N. Das,3.1,Closed,Temporary fix applied,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-006,2025-05-15,20:30,PLC-Panel,Pipe OD out of spec — forming issue,S. Kumar,7.4,Closed,Root cause: wear and tear,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-007,2025-05-27,22:15,Pump-2,Air compressor pressure low,N. Das,5.7,Open,Spare part ordered — pending,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-008,2025-05-18,21:00,Motor-B,Pneumatic pressure drop in actuator,R. Sharma,4.1,Closed,Escalated to OEM,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-009,2025-05-27,21:30,Pump-1,Electrical trip — overload relay,K. Yadav,0.7,Open,Root cause: wear and tear,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-010,2025-05-27,23:15,Pump-2,Oil contamination in gearbox,M. Singh,2.1,Open,Resolved by operator adjustment,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-011,2025-05-09,18:00,Motor-A,Coating thickness alarm,V. Joshi,6.2,Closed,Spare part ordered — pending,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+N29-012,2025-05-30,23:00,PLC-Panel,PLC fault code F-204 — sensor error,K. Yadav,0.8,Closed,Repaired and tested OK,Night,Electrical-Panel-MCC,Electrical-Panel-MCC
+D30-001,2025-05-07,07:00,Pump-2,Water leakage in cooling system,A. Patel,1.9,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-002,2025-05-27,10:30,Conveyor-Drive,Coolant pump not starting,B. Reddy,6.4,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-003,2025-05-28,06:15,Pump-2,Oil contamination in gearbox,M. Singh,7.3,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-004,2025-05-02,09:45,Conveyor-Drive,Electrical trip — overload relay,N. Das,1.9,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-005,2025-05-26,11:45,Gearbox,Weld seam out of tolerance,B. Reddy,2.2,Closed,Escalated to OEM,Day,Cooling-Tower,Cooling-Tower
+D30-006,2025-05-28,13:00,Pump-1,Drive belt worn — replacement needed,S. Kumar,5.8,Closed,Repaired and tested OK,Day,Cooling-Tower,Cooling-Tower
+D30-007,2025-05-29,11:45,Motor-B,Emergency stop triggered — unknown cause,K. Yadav,3.9,Closed,,Day,Cooling-Tower,Cooling-Tower
+D30-008,2025-05-24,14:45,Cylinder-Main,Pipe OD out of spec — forming issue,A. Patel,6.9,Open,,Day,Cooling-Tower,Cooling-Tower
+D30-009,2025-05-10,11:15,Motor-A,Gear coupling worn — noise detected,V. Joshi,5.5,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-010,2025-05-28,08:45,Gearbox,Electrical trip — overload relay,N. Das,7.8,Closed,Temporary fix applied,Day,Cooling-Tower,Cooling-Tower
+D30-011,2025-05-29,11:15,Conveyor-Drive,Weld seam out of tolerance,N. Das,6.8,Closed,Root cause: wear and tear,Day,Cooling-Tower,Cooling-Tower
+D30-012,2025-05-05,12:45,Cylinder-Main,Coating thickness alarm,N. Das,5.0,Open,Resolved by operator adjustment,Day,Cooling-Tower,Cooling-Tower
+D30-013,2025-05-20,13:45,PLC-Panel,Encoder signal lost on servo axis,K. Yadav,1.6,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-014,2025-05-23,13:45,Pump-2,Chain elongation on drive chain,M. Singh,0.7,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+D30-015,2025-05-16,06:15,Gearbox,Lubrication system fault — low level,S. Kumar,1.6,Closed,Spare part ordered — pending,Day,Cooling-Tower,Cooling-Tower
+N30-001,2025-05-07,18:45,PLC-Panel,Weld seam out of tolerance,K. Yadav,5.5,Closed,Preventive maintenance scheduled,Night,Cooling-Tower,Cooling-Tower
+N30-002,2025-05-14,20:00,Motor-A,Pipe OD out of spec — forming issue,P. Gupta,3.4,Closed,Resolved by operator adjustment,Night,Cooling-Tower,Cooling-Tower
+N30-003,2025-05-17,21:00,Motor-A,Coolant pump not starting,B. Reddy,5.4,Open,Temporary fix applied,Night,Cooling-Tower,Cooling-Tower
+N30-004,2025-05-16,21:15,Cylinder-Main,Electrical trip — overload relay,D. Mehta,4.2,Closed,,Night,Cooling-Tower,Cooling-Tower
+N30-005,2025-05-10,22:45,PLC-Panel,Air compressor pressure low,M. Singh,4.3,Closed,,Night,Cooling-Tower,Cooling-Tower
+N30-006,2025-05-13,21:30,Cylinder-Main,Limit switch failure — door interlock,R. Sharma,0.7,Closed,Escalated to OEM,Night,Cooling-Tower,Cooling-Tower
+N30-007,2025-05-20,23:00,Conveyor-Drive,Emergency stop triggered — unknown cause,P. Gupta,3.7,Open,Resolved by operator adjustment,Night,Cooling-Tower,Cooling-Tower
+N30-008,2025-05-20,18:15,Pump-2,Strip break at forming section,K. Yadav,4.9,Open,Spare part ordered — pending,Night,Cooling-Tower,Cooling-Tower
+N30-009,2025-05-04,20:00,Conveyor-Drive,Coolant pump not starting,R. Sharma,4.5,Closed,Resolved by operator adjustment,Night,Cooling-Tower,Cooling-Tower
+N30-010,2025-05-13,22:45,Cylinder-Main,Hydraulic leak in main cylinder,V. Joshi,4.9,Open,Resolved by operator adjustment,Night,Cooling-Tower,Cooling-Tower
+N30-011,2025-05-13,21:30,Motor-B,Drive belt worn — replacement needed,P. Gupta,5.7,Closed,,Night,Cooling-Tower,Cooling-Tower
+N30-012,2025-05-15,23:30,Pump-1,Lubrication system fault — low level,K. Yadav,3.2,Closed,,Night,Cooling-Tower,Cooling-Tower
+D31-001,2025-05-11,07:15,Cylinder-Main,Vibration high on spindle motor,R. Sharma,2.7,Closed,Root cause: wear and tear,Day,Crane-Bay-1,Crane-Bay-1
+D31-002,2025-05-12,07:00,Conveyor-Drive,Vibration high on spindle motor,P. Gupta,4.7,Closed,Resolved by operator adjustment,Day,Crane-Bay-1,Crane-Bay-1
+D31-003,2025-05-25,11:00,Cylinder-Main,Encoder signal lost on servo axis,K. Yadav,3.7,Closed,Root cause: wear and tear,Day,Crane-Bay-1,Crane-Bay-1
+D31-004,2025-05-18,12:30,PLC-Panel,Gear coupling worn — noise detected,B. Reddy,1.9,Closed,Temporary fix applied,Day,Crane-Bay-1,Crane-Bay-1
+D31-005,2025-05-13,13:15,PLC-Panel,Vibration high on spindle motor,B. Reddy,6.6,Open,Resolved by operator adjustment,Day,Crane-Bay-1,Crane-Bay-1
+D31-006,2025-05-02,06:15,Conveyor-Drive,Hydraulic valve stuck open,M. Singh,2.3,Closed,Preventive maintenance scheduled,Day,Crane-Bay-1,Crane-Bay-1
+D31-007,2025-05-04,12:45,Conveyor-Drive,Conveyor belt slip / misalignment,A. Patel,6.8,Closed,Preventive maintenance scheduled,Day,Crane-Bay-1,Crane-Bay-1
+D31-008,2025-05-11,08:30,Pump-2,Emergency stop triggered — unknown cause,A. Patel,1.4,Closed,Root cause: wear and tear,Day,Crane-Bay-1,Crane-Bay-1
+D31-009,2025-05-06,10:45,PLC-Panel,Air compressor pressure low,D. Mehta,3.7,Open,Root cause: wear and tear,Day,Crane-Bay-1,Crane-Bay-1
+D31-010,2025-05-26,10:15,Motor-A,Vibration high on spindle motor,K. Yadav,5.4,Closed,Repaired and tested OK,Day,Crane-Bay-1,Crane-Bay-1
+D31-011,2025-05-08,13:00,Motor-A,Conveyor belt slip / misalignment,S. Kumar,5.0,Open,Resolved by operator adjustment,Day,Crane-Bay-1,Crane-Bay-1
+D31-012,2025-05-03,11:00,Gearbox,Torch height error — cutting machine,M. Singh,2.3,Closed,Spare part ordered — pending,Day,Crane-Bay-1,Crane-Bay-1
+D31-013,2025-05-15,14:30,PLC-Panel,Conveyor belt slip / misalignment,A. Patel,5.0,Open,Escalated to OEM,Day,Crane-Bay-1,Crane-Bay-1
+D31-014,2025-05-21,12:15,Gearbox,Weld seam out of tolerance,M. Singh,1.3,Closed,Preventive maintenance scheduled,Day,Crane-Bay-1,Crane-Bay-1
+D31-015,2025-05-17,12:30,Motor-A,Drive belt worn — replacement needed,B. Reddy,3.3,Open,Escalated to OEM,Day,Crane-Bay-1,Crane-Bay-1
+N31-001,2025-05-14,21:45,Pump-2,Vibration high on spindle motor,M. Singh,3.2,Closed,Preventive maintenance scheduled,Night,Crane-Bay-1,Crane-Bay-1
+N31-002,2025-05-31,23:00,Motor-A,Electrical trip — overload relay,A. Patel,2.4,Closed,Escalated to OEM,Night,Crane-Bay-1,Crane-Bay-1
+N31-003,2025-05-03,23:00,Pump-2,Hydraulic valve stuck open,D. Mehta,0.6,Open,Preventive maintenance scheduled,Night,Crane-Bay-1,Crane-Bay-1
+N31-004,2025-05-22,18:15,Cylinder-Main,Weld seam out of tolerance,M. Singh,7.4,Closed,Resolved by operator adjustment,Night,Crane-Bay-1,Crane-Bay-1
+N31-005,2025-05-06,18:30,Motor-B,Coating thickness alarm,V. Joshi,4.0,Closed,Escalated to OEM,Night,Crane-Bay-1,Crane-Bay-1
+N31-006,2025-05-09,21:00,Pump-1,Electrical trip — overload relay,K. Yadav,4.3,Closed,Escalated to OEM,Night,Crane-Bay-1,Crane-Bay-1
+N31-007,2025-05-17,23:00,Motor-A,Chain elongation on drive chain,M. Singh,5.2,Open,Temporary fix applied,Night,Crane-Bay-1,Crane-Bay-1
+N31-008,2025-05-31,21:15,Cylinder-Main,Limit switch failure — door interlock,N. Das,1.1,Closed,Temporary fix applied,Night,Crane-Bay-1,Crane-Bay-1
+N31-009,2025-05-04,22:45,Conveyor-Drive,Hydraulic valve stuck open,V. Joshi,7.1,Closed,Temporary fix applied,Night,Crane-Bay-1,Crane-Bay-1
+N31-010,2025-05-10,22:30,Cylinder-Main,Weld seam out of tolerance,P. Gupta,3.6,Closed,Resolved by operator adjustment,Night,Crane-Bay-1,Crane-Bay-1
+N31-011,2025-05-05,22:15,Motor-A,Hydraulic leak in main cylinder,B. Reddy,5.4,Closed,Spare part ordered — pending,Night,Crane-Bay-1,Crane-Bay-1
+N31-012,2025-05-17,19:30,Pump-1,Motor overheating — bearing failure,D. Mehta,5.1,Closed,Temporary fix applied,Night,Crane-Bay-1,Crane-Bay-1

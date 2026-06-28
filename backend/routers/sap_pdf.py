@@ -6,10 +6,10 @@ GET  /api/sap-pdf/download/{format}  — download generated output
 
 import json
 import os
-import shutil
 import subprocess
 import sys
 import tempfile
+import csv
 from pathlib import Path
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
@@ -20,7 +20,9 @@ router = APIRouter()
 # Paths — configurable via env var for non-Windows deployments
 PIPELINE_DIR = Path(os.environ.get("PIPELINE_001_DIR", r"D:\HMC work\001-sap-pdf-extraction"))
 MOCK_PDF     = PIPELINE_DIR / "mock_sap_report.pdf"
-OUTPUT_DIR   = Path(__file__).parent.parent / "output" / "sap-pdf"
+SAMPLE_DATA_DIR = Path(__file__).parent.parent / "sample_data"
+SAMPLE_JSON = SAMPLE_DATA_DIR / "sap_normalised.json"
+OUTPUT_DIR   = Path(tempfile.gettempdir()) / "automation-hub" / "sap-pdf"
 
 # In-memory pointer to last-generated output directory
 _last_output: dict = {}
@@ -37,7 +39,7 @@ async def extract(
     # --- Determine input PDF path ---
     if use_mock.lower() == "true" or (file is None):
         if not MOCK_PDF.exists():
-            raise HTTPException(404, "Mock PDF not found — check 001-sap-pdf-extraction/")
+            return _sample_extract(output_format)
         pdf_path = MOCK_PDF
         tmp_file = None
     else:
@@ -110,19 +112,80 @@ async def extract(
     }
 
 
+def _sample_extract(output_format: str):
+    if not SAMPLE_JSON.exists():
+        raise HTTPException(404, "Sample SAP extraction data not found")
+
+    with open(SAMPLE_JSON, encoding="utf-8") as f:
+        data = json.load(f)
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    json_file = OUTPUT_DIR / "normalised.json"
+    with open(json_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    for old_csv in OUTPUT_DIR.glob("*.csv"):
+        old_csv.unlink()
+
+    tables = data.get("tables", [])
+    if output_format in {"csv", "both"}:
+        for i, table in enumerate(tables):
+            records = table.get("records", [])
+            if not records:
+                continue
+            columns = list(records[0].keys())
+            csv_path = OUTPUT_DIR / f"table_{i + 1}.csv"
+            with open(csv_path, "w", encoding="utf-8", newline="") as f:
+                writer = csv.DictWriter(f, fieldnames=columns)
+                writer.writeheader()
+                writer.writerows(records)
+
+    meta = data.get("report_meta", {})
+    downloads = {}
+    if output_format in {"json", "both"}:
+        downloads["json"] = "/api/sap-pdf/download/json"
+    if output_format in {"csv", "both"} and list(OUTPUT_DIR.glob("*.csv")):
+        downloads["csv"] = "/api/sap-pdf/download/csv"
+
+    return {
+        "meta": {
+            "plant": meta.get("plant", "-"),
+            "company_code": meta.get("company_code", "-"),
+            "run_date": meta.get("run_date", "-"),
+            "tables_found": len(tables),
+        },
+        "tables": [
+            {
+                "name": table.get("name", f"Table {i + 1}"),
+                "columns": table.get("columns", []),
+                "records": table.get("records", [])[:50],
+                "total_rows": len(table.get("records", [])),
+            }
+            for i, table in enumerate(tables)
+        ],
+        "downloads": downloads,
+    }
+
+
 @router.get("/download/{fmt}")
 def download(fmt: str):
     if fmt == "json":
         f = OUTPUT_DIR / "normalised.json"
         if not f.exists():
-            raise HTTPException(404, "No JSON output found — run extraction first")
+            _sample_extract("both")
+            f = OUTPUT_DIR / "normalised.json"
+        if not f.exists():
+            raise HTTPException(404, "No JSON output found - run extraction first")
         return FileResponse(str(f), filename="normalised.json",
                             media_type="application/json")
 
     elif fmt == "csv":
         csv_files = list(OUTPUT_DIR.glob("*.csv"))
         if not csv_files:
-            raise HTTPException(404, "No CSV output found — run extraction first")
+            _sample_extract("both")
+            csv_files = list(OUTPUT_DIR.glob("*.csv"))
+        if not csv_files:
+            raise HTTPException(404, "No CSV output found - run extraction first")
         # Zip if multiple, else return single
         if len(csv_files) == 1:
             return FileResponse(str(csv_files[0]), filename=csv_files[0].name,

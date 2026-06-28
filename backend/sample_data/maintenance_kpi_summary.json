@@ -1,0 +1,441 @@
+{
+  "total_calls": 837,
+  "avg_resolution_time_hrs": 4.12,
+  "open_count": 217,
+  "closed_count": 620,
+  "open_rate_pct": 25.9,
+  "top_machine": "Bevel-Machine-1",
+  "top_5_machines": [
+    "Bevel-Machine-1",
+    "Bevel-Machine-2",
+    "Coating-Line-1",
+    "Coating-Line-2",
+    "Compressor-1"
+  ],
+  "calls_per_machine": {
+    "Bevel-Machine-1": 27,
+    "Bevel-Machine-2": 27,
+    "Coating-Line-1": 27,
+    "Coating-Line-2": 27,
+    "Compressor-1": 27,
+    "Compressor-2": 27,
+    "Cooling-Tower": 27,
+    "Crane-Bay-1": 27,
+    "Cut-Off-Saw": 27,
+    "ERW-Pipe-A": 27,
+    "ERW-Pipe-B": 27,
+    "ERW-Pipe-C": 27,
+    "Electrical-Panel-MCC": 27,
+    "Entry-Coiler": 27,
+    "Exit-Table": 27,
+    "Flying-Saw": 27,
+    "Forming-Mill": 27,
+    "Hydraulic-Power-Unit": 27,
+    "Hydro-Test-1": 27,
+    "Hydro-Test-2": 27,
+    "Line-1": 27,
+    "Line-2": 27,
+    "Line-3": 27,
+    "Run-Out-Table": 27,
+    "Sizing-Mill": 27,
+    "Spiral-Mill-1": 27,
+    "Spiral-Mill-2": 27,
+    "Straightener": 27,
+    "Strip-Feed": 27,
+    "UT-Scanner": 27,
+    "Weld-Seam-Scanner": 27
+  },
+  "calls_per_machine_shift": [
+    {
+      "machine": "Bevel-Machine-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Bevel-Machine-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Bevel-Machine-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Bevel-Machine-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Coating-Line-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Coating-Line-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Coating-Line-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Coating-Line-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Compressor-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Compressor-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Compressor-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Compressor-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Cooling-Tower",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Cooling-Tower",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Crane-Bay-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Crane-Bay-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Cut-Off-Saw",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Cut-Off-Saw",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "ERW-Pipe-A",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "ERW-Pipe-A",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "ERW-Pipe-B",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "ERW-Pipe-B",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "ERW-Pipe-C",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "ERW-Pipe-C",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Electrical-Panel-MCC",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Electrical-Panel-MCC",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Entry-Coiler",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Entry-Coiler",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Exit-Table",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Exit-Table",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Flying-Saw",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Flying-Saw",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Forming-Mill",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Forming-Mill",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Hydraulic-Power-Unit",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Hydraulic-Power-Unit",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Hydro-Test-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Hydro-Test-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Hydro-Test-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Hydro-Test-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Line-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Line-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Line-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Line-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Line-3",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Line-3",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Run-Out-Table",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Run-Out-Table",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Sizing-Mill",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Sizing-Mill",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Spiral-Mill-1",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Spiral-Mill-1",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Spiral-Mill-2",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Spiral-Mill-2",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Straightener",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Straightener",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Strip-Feed",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Strip-Feed",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "UT-Scanner",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "UT-Scanner",
+      "shift": "Night",
+      "calls": 12
+    },
+    {
+      "machine": "Weld-Seam-Scanner",
+      "shift": "Day",
+      "calls": 15
+    },
+    {
+      "machine": "Weld-Seam-Scanner",
+      "shift": "Night",
+      "calls": 12
+    }
+  ],
+  "avg_resolve_per_machine": {
+    "Bevel-Machine-1": 4.24,
+    "Bevel-Machine-2": 3.94,
+    "Coating-Line-1": 4.61,
+    "Coating-Line-2": 3.24,
+    "Compressor-1": 3.82,
+    "Compressor-2": 3.37,
+    "Cooling-Tower": 4.29,
+    "Crane-Bay-1": 3.91,
+    "Cut-Off-Saw": 4.81,
+    "ERW-Pipe-A": 3.66,
+    "ERW-Pipe-B": 4.58,
+    "ERW-Pipe-C": 3.71,
+    "Electrical-Panel-MCC": 4.05,
+    "Entry-Coiler": 4.28,
+    "Exit-Table": 3.96,
+    "Flying-Saw": 4.02,
+    "Forming-Mill": 4.41,
+    "Hydraulic-Power-Unit": 3.95,
+    "Hydro-Test-1": 3.45,
+    "Hydro-Test-2": 3.73,
+    "Line-1": 4.84,
+    "Line-2": 3.84,
+    "Line-3": 4.0,
+    "Run-Out-Table": 4.34,
+    "Sizing-Mill": 4.67,
+    "Spiral-Mill-1": 4.88,
+    "Spiral-Mill-2": 3.83,
+    "Straightener": 4.2,
+    "Strip-Feed": 4.84,
+    "UT-Scanner": 3.96,
+    "Weld-Seam-Scanner": 4.4
+  },
+  "open_calls_per_machine": {
+    "Cut-Off-Saw": 10,
+    "Straightener": 10,
+    "Compressor-2": 9,
+    "Hydro-Test-1": 9,
+    "Line-1": 9,
+    "Forming-Mill": 9,
+    "Spiral-Mill-2": 9,
+    "Weld-Seam-Scanner": 9,
+    "UT-Scanner": 8,
+    "ERW-Pipe-A": 8
+  },
+  "daily_trend": {
+    "2025-05-02": 26,
+    "2025-05-03": 24,
+    "2025-05-04": 34,
+    "2025-05-05": 23,
+    "2025-05-06": 27,
+    "2025-05-07": 35,
+    "2025-05-08": 20,
+    "2025-05-09": 32,
+    "2025-05-10": 34,
+    "2025-05-11": 22,
+    "2025-05-12": 21,
+    "2025-05-13": 26,
+    "2025-05-14": 29,
+    "2025-05-15": 28,
+    "2025-05-16": 24,
+    "2025-05-17": 39,
+    "2025-05-18": 34,
+    "2025-05-19": 31,
+    "2025-05-20": 31,
+    "2025-05-21": 34,
+    "2025-05-22": 27,
+    "2025-05-23": 22,
+    "2025-05-24": 28,
+    "2025-05-25": 24,
+    "2025-05-26": 19,
+    "2025-05-27": 26,
+    "2025-05-28": 31,
+    "2025-05-29": 29,
+    "2025-05-30": 29,
+    "2025-05-31": 28
+  },
+  "shift_split": {
+    "Day": 465,
+    "Night": 372
+  }
+}
